@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Aboreto-Regular';
+  src: local('Aboreto-Regular'), url(./assets/fonts/Aboreto-Regular.ttf) format('truetype');
+}
