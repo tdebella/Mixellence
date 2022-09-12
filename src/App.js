@@ -1,8 +1,10 @@
 import "./App.css";
+import Hero from "./Hero";
 
 function App() {
   return (
-    <div className="body-text">
+    <div className="App">
+      <Hero />
     </div>
   );
 }
