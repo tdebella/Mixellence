@@ -3,13 +3,13 @@
   font-size: 2rem;
 }
 
-.heading{
-  font-family: Aboreto-Regular;
+.heading {
+  font-family: "Aboreto-Regular";
   font-weight: 400;
 }
 
-.body-text{
-  font-family: 'Montserrat';
+.body-text {
+  font-family: "Montserrat";
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
