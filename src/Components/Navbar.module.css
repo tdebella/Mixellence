@@ -1,0 +1,11 @@
+.NavbarCSS {
+  background-color: #ffffff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+}
+
+.logo {
+  color: #000000;
+}
