@@ -1,0 +1,29 @@
+.wrapper {
+  width: 1340px;
+  min-height: 338px;
+  margin-right: 100px;
+  margin-left: 10px;
+  justify-content: center;
+  background-image: url("../assets/Photos/bg-about.png");
+  background-color: #f7f6f6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 100px right 0px;
+}
+
+.wrapper h3 {
+  font-family: "Aboreto-Regular";
+  font-size: 56px;
+  font-weight: normal;
+  line-height: 64px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.text {
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  line-height: 28px;
+  margin: 0 180px 0 200px;
+}
