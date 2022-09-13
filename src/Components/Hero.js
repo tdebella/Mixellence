@@ -1,5 +1,5 @@
 import classes from "./hero.module.css";
-import { StyledButton } from "./styled-components/styled-components";
+import { StyledButton } from "../styled-components/styled-components";
 
 const Hero = () => {
   return (

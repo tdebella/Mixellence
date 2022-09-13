@@ -1,5 +1,5 @@
 .hero{
-    background-image: url('./assets/Photos/heroImage.png');
+    background-image: url('../assets/Photos/heroImage.png');
     height: 380px;
     width: 1440px;
 }
