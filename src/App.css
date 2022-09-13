@@ -1,6 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
 }
 
 .heading {
