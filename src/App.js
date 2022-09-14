@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
+      <Drinks />
       <AboutUs />
       <Drinks />
       {/* <Bartenders /> */}
