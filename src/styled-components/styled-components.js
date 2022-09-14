@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+/*
+*  default displays as white button
+*  add primary to display as black button
+*
+*  <StyledButton primary>Will display as black button</StyledButton>
+*/
 export const StyledButton = styled.button`
   padding: 14px 28px;
   text-decoration: none;
