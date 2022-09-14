@@ -3,15 +3,15 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import AboutUs from "./Components/AboutUs";
 import Bartenders from "./Components/Bartenders";
-import Drinks from './Components/Drinks'
+import Drinks from "./Components/Drinks";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Drinks />
       <AboutUs />
+      <Drinks />
       <Bartenders />
     </div>
   );
