@@ -1,0 +1,22 @@
+.testimonials{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/Photos/bg-testimonial.png');
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    background-position: center;
+    padding: 0px 30px;
+}
+.testimonials h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.testimonialCardContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
