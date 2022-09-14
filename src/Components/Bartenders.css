@@ -21,29 +21,30 @@ h3 {
   color: #000000;
 }
 
-/* wrapper1 */
-.wrapper1 {
+/* wrap1 */
+.wrap1 {
   display: flex;
   background-color: #f7f6f6;
 }
-.leftWrap {
+.wrap1 .img1 {
   width: 350px;
   height: 450px;
-  margin: 50px 0px 0px 100px;
-  color: #d9d9d9;
-  left: 100px;
-  top: 1796px;
-  bottom: 0%;
+  margin-left: 100px;
+  /* margin: 50px 0px 0px 100px; */
+  /* left: 100px; */
+  /* top: 1796px; */
+  /* bottom: 0%; */
   background-image: url("../assets/Photos/michael-dam-mEZ3PoFGs_k-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.rightWrap .hannah {
+h3 .hannah {
   font-size: 24px;
-  margin-left: 40px;
+
+  margin-top: 200px;
 }
-.rightWrap p {
+.text1 p {
   width: 840px;
   height: 196px;
   font-family: "Montserrat";
@@ -51,26 +52,20 @@ h3 {
   font-weight: 400;
   font-style: normal;
   line-height: 28px;
+  /* margin-left: 100px; */
   margin: 120px 80px 0 50px;
   text-align: left;
 }
 
-/* second bartender */
-/* .rightWrap {
-  width: 350px;
-  height: 450px;
-  float: right;
-  color: #d9d9d9;
-  background-image: url("../assets/Photos/prince-akachi-J1OScm_uHUQ-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- 
-
-  top: 2296px;
-  left: 990px; */
-
-/* .leftWrap {
+/* wrap2 */
+.wrap2 {
+  display: flex;
+  background-color: #f7f6f6;
+}
+.text2 .ava {
+  font-size: 24px;
+}
+.text2 p {
   width: 840px;
   height: 196px;
   float: left;
@@ -79,30 +74,42 @@ h3 {
   font-weight: 400;
   font-style: normal;
   line-height: 28px;
-  text-align: left;
-  
+  /* text-align: left; */
 }
-.ava {
-  font-size: 24px;
-} */
-
-/* third bartender */
-/* .leftWrap {
+.wrap2 .img2 {
   width: 350px;
   height: 450px;
-  margin: 50px 0px 0px 100px;
+  left: 990px;
+  top: 2296px;
+  float: right;
   color: #d9d9d9;
-  left: 100px;
-  top: 1796px;
-  bottom: 0%;
+  background-image: url("../assets/Photos/prince-akachi-J1OScm_uHUQ-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* wrap3 */
+.wrap3 {
+  display: flex;
+  background-color: #f7f6f6;
+}
+.wrap3 .img3 {
+  width: 350px;
+  height: 450px;
+  float: left;
+  color: #d9d9d9;
   background-image: url("../assets/Photos/austin-wade-X6Uj51n5CE8-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.rightWrap {
+.text3 .jack {
+  font-size: 24px;
+}
+.text3 p {
   width: 840px;
   height: 196px;
+  float: right;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 400;
@@ -111,6 +118,3 @@ h3 {
   margin: 120px 80px 0 50px;
   text-align: left;
 }
-.rightWrap span {
-  font-size: 24px;
-} */
