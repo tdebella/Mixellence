@@ -1,5 +1,6 @@
 import './drinks.css'
 import DrinkCard from './DrinkCard';
+
 const Drinks = () => {
     const drink_info = [
         {
