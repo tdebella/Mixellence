@@ -1,0 +1,32 @@
+.card{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card > * {
+    margin: .8rem 0rem;
+}
+.avatar{
+    border-radius: 50%;
+    height: 12.5rem;
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.avatarImg{
+    width:100%;
+    height:auto;
+}
+.name{
+    font-size: 24px;
+    line-height: 32px;
+}
+.summary{
+    font-size:16px;
+    line-height: 24px;
+    padding: 0rem 1.2rem;
+}
