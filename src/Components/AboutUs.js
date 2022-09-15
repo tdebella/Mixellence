@@ -4,7 +4,7 @@ import backgroundImage from "../assets/Photos/bg-about.png";
 
 const AboutUs = () => {
   return (
-    <div className="wrapper">
+    <div className="about-wrap">
       {/* <img src={backgroundImage} alt="background-image" /> */}
       <h3>ABOUT US</h3>
       <p className="text">
