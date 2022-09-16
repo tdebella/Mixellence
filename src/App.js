@@ -6,6 +6,7 @@ import Bartenders from "./Components/Bartenders";
 import Drinks from "./Components/Drinks";
 import Testimonials from "./Components/Testimonials";
 import DATA from './DATA.js'
+import ContactUs from "./Components/ContactUs";
 
 function App() {
   console.log(DATA)
@@ -17,6 +18,7 @@ function App() {
       <Drinks />
       <Bartenders />
       <Testimonials />
+      <ContactUs />
     </div>
   );
 }

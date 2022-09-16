@@ -4,7 +4,7 @@
   margin: -50px 0px 0px -130px;
   justify-content: center;
   background-color: #f7f6f6;
-  background-image: url("../assets/Photos/bg.bartenders.png");
+  background-image: url("../assets/Photos/bg-bartenders.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -91,6 +91,7 @@ h3 {
   width: 350px;
   height: 450px;
   float: right;
+  margin: 0px 100px;
   color: #d9d9d9;
   background-image: url("../assets/Photos/prince-akachi-J1OScm_uHUQ-unsplash.jpg");
   background-position: top 30px 40px left;
