@@ -1,0 +1,79 @@
+.contact-page {
+  background-color: #212121;
+  width: 1440px;
+  height: 504px;
+  left: 0px;
+  bottom: 0px;
+  display: block;
+}
+.form-contact {
+  display: flex;
+}
+form {
+  width: 49.5%;
+  color: #fafafa;
+  margin-top: 70px;
+  margin-left: 70px;
+  float: left;
+  padding: 30px;
+}
+.form-input {
+  display: inline;
+  text-decoration: none;
+  width: 300px;
+  padding: 10px;
+  margin: 25px 2px 5px 10px;
+  color: white;
+  background-color: #212121;
+}
+.btn {
+  color: #212121;
+  width: 100px;
+  height: 60px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #fafafa;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: #212121;
+}
+
+/* contact  */
+.contact {
+  width: 49.5%;
+}
+.heading2 {
+  width: 287px;
+  color: #fafafa;
+  text-align: right;
+  font-size: 56px;
+  line-height: 64px;
+  margin-top: 80px;
+  margin-left: 250px;
+}
+.bodyText {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #fafafa;
+  text-align: left;
+}
+
+/* social-media */
+.social {
+  display: flex;
+  color: #fafafa;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.col {
+  padding: 20px;
+  margin-top: -20px;
+}
