@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./drinkCard.css";
 
 const DrinkCard = ({ drink }) => {
+  //flip is used to set if we see the front or back of the drink card
   const [flip, setFlip] = useState(false);
 
   return (
