@@ -85,7 +85,7 @@ const ContactUs = () => {
 
         <div className="contact">
           <h3 className="heading2">CONTACT __________US</h3>
-          <p className="bodyText">
+          <p className="bodyText-2">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Repudiandae laboriosam nam eius ab nihil, temporibus sequi qui,
             earum quidem praesentium pariatur distinctio.
