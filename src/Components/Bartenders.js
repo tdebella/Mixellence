@@ -1,18 +1,13 @@
 import React from "react";
 import "./Bartenders.css";
-import backgroundImage from "../assets/Photos/bg.bartenders.png";
-// import { img1 } from "../assets/Photos/michael-dam-mEZ3PoFGs_k-unsplash.jpg";
-// import { img2 } from "../assets/Photos/prince-akachi-J1OScm_uHUQ-unsplash.jpg";
-// import { img3 } from "../assets/Photos/austin-wade-X6Uj51n5CE8-unsplash.jpg";
 import { StyledButton } from "../styled-components/styled-components";
 
 const Bartenders = () => {
   return (
     <div className="bartenders">
-      <div className="bg-img">{backgroundImage}</div>
       <h3>GET TO KNOW YOUR BARTENDERS</h3>
       <div className="wrap1">
-       
+        <div className="img1"></div>
         <div className="text1">
           <span className="hannah">HANNAH GONZALEZ</span>
           <p>
