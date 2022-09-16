@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className={classes.hero}>
       <div className={`body-text ${classes.heroContent}`}>
-        <div><a href="#"></a></div>
+        <div><a href="#" className="dashboardLink"></a></div>
         <p>Excellent hand-crafted drinks for your event</p>
         <StyledButton as="a" href="#" >Book Now</StyledButton>
       </div>

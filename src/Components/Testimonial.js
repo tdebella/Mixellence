@@ -4,7 +4,7 @@ const Testimonial = ({ info }) => {
   return (
     <div className={classes.card}>
       <div className={classes.avatar}>
-        <img src={require(`../assets/Photos/${info.image}`)} className={classes.avatarImg} alt='avatar' />
+        <img src={require(`${info.image}`)} className={classes.avatarImg} alt='avatar' />
       </div>
       <div className="stars">stars
       stars</div>
