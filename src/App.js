@@ -9,15 +9,16 @@ import DATA from './DATA.js'
 import ContactUs from "./Components/ContactUs";
 
 function App() {
-  console.log(DATA)
+  console.log(DATA);
+  const data = DATA;
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <AboutUs />
-      <Drinks />
-      <Bartenders />
-      <Testimonials />
+      <AboutUs about={data.about} />
+      <Drinks drinks={data.drinks} />
+      <Bartenders bartenders={data.bartenders} />
+      <Testimonials testimonials={data.testimonials} />
       <ContactUs />
     </div>
   );
