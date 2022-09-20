@@ -6,7 +6,7 @@ import Bartenders from "./Components/Bartenders";
 import Drinks from "./Components/Drinks";
 import Testimonials from "./Components/Testimonials";
 import DATA from "./DATA.js";
-import ContactUs from "./Components/ContactUs";
+import Footer from "./Components/Footer";
 
 function App() {
   console.log(DATA);
@@ -19,7 +19,7 @@ function App() {
       <Drinks drinks={data.drinks} />
       <Bartenders bartenders={data.bartenders} />
       <Testimonials testimonials={data.testimonials} />
-      <ContactUs />
+      <Footer />
     </div>
   );
 }
