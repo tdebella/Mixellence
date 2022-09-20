@@ -4,6 +4,8 @@ import "./drinkCard.css";
 const DrinkCard = ({ drink }) => {
   //flip is used to set if we see the front or back of the drink card
   const [flip, setFlip] = useState(false);
+  
+  let image = drink.photo.toString();
 
   return (
     <div
@@ -12,14 +14,14 @@ const DrinkCard = ({ drink }) => {
     >
       <div className="front">
         <img
-          src={require(`../assets/Photos/${drink.imgUrl}`)}
+          src={`${image}`}
           alt={drink.name}
         />
       </div>
       <div className="back">
         <h3 className="heading">{drink.name}</h3>
         <p className="bodyText">
-          {drink.info}
+          {drink.description}
         </p>
       </div>
     </div>
