@@ -1,33 +1,12 @@
-import "./ContactUs.css";
-import React, { useState } from "react";
-// import { send } from "emailjs-com";
+import "./Footer.css";
+import React from "react";
+
+// social icons
 import Instagram from "../assets/Photos/instagram.png";
 import Facebook from "../assets/Photos/facebook.png";
 import Twitter from "../assets/Photos/twitter.png";
 
 const ContactUs = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const [interested_in, setInterestedIn] = useState("");
-  const [message, setMessage] = useState("");
-
-  const handleName = (e) => {
-    setName(e.target.value);
-  };
-  const handleEmail = (e) => {
-    setEmail(e.target.value);
-  };
-  const handlePhoneNumber = (e) => {
-    setPhoneNumber(e.target.value);
-  };
-  const handleInterestedIn = (e) => {
-    setInterestedIn(e.target.value);
-  };
-  const handleMessage = (e) => {
-    setMessage(e.target.value);
-  };
-
   return (
     <div className="contact-page">
       <div className="form-contact">
@@ -37,8 +16,6 @@ const ContactUs = () => {
             type="text"
             placeholder="Your Name"
             name="name"
-            value={name}
-            // onChange={handleName}
             required
           />
           <input
@@ -46,8 +23,6 @@ const ContactUs = () => {
             type="email"
             placeholder="Your Email"
             name="email"
-            value={email}
-            // onChange={handleEmail}
             required
           />
           <input
@@ -55,8 +30,6 @@ const ContactUs = () => {
             type="number"
             placeholder="Phone Number"
             name="phone_number"
-            value={phoneNumber}
-            // onChange={handlePhoneNumber}
             required
           />
           <input
@@ -64,8 +37,6 @@ const ContactUs = () => {
             type="text"
             placeholder="Interested in"
             name="Interested in"
-            value={interested_in}
-            // onChange={handleInterestedIn}
             required
           />
           <textarea
@@ -73,8 +44,6 @@ const ContactUs = () => {
             type="message"
             placeholder="Message"
             name="message"
-            value={message}
-            // onChange={handleMessage}
             required
           />
           <br /> <br />

@@ -30,10 +30,8 @@ input:focus {
 }
 
 textarea {
-  display: block;
   width: 100%;
   border: none;
-  background: transparent;
   border-bottom: 1px solid #fafafa;
 }
 .form-input {
@@ -67,6 +65,12 @@ textarea {
 /* contact  */
 .contact {
   width: 49.5%;
+  font-family: "Montserrat";
+  background-image: url("../assets/Photos/bg-footer.png");
+  background-color: #212121;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top 50px right 110px;
 }
 .heading2 {
   width: 287px;
@@ -80,9 +84,9 @@ textarea {
 .bodyText-2 {
   font-size: 18px;
   line-height: 28px;
-  font-weight: 400;
   color: #fafafa;
   text-align: left;
+  margin-top: 130px;
 }
 
 /* social-media */

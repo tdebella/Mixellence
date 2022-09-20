@@ -6,14 +6,19 @@ import Bartenders from "./Components/Bartenders";
 import Drinks from "./Components/Drinks";
 import Testimonials from "./Components/Testimonials";
 import DATA from "./DATA.js";
-import ContactUs from "./Components/ContactUs";
-import { aboutContent, bartenderContent, drinksContent, testimonialsContent } from './firebase-db'
+import Footer from "./Components/Footer";
+import {
+  aboutContent,
+  bartenderContent,
+  drinksContent,
+  testimonialsContent,
+} from "./firebase-db";
 
 function App() {
-//  console.log('about in app js ', aboutContent)
-//  console.log('app js bartenders ', bartenderContent)
-//  console.log('appjs drinks ', drinksContent)
-//  console.log('appjs testimonials', testimonialsContent)
+  //  console.log('about in app js ', aboutContent)
+  //  console.log('app js bartenders ', bartenderContent)
+  //  console.log('appjs drinks ', drinksContent)
+  //  console.log('appjs testimonials', testimonialsContent)
   const data = DATA;
   return (
     <div className="App">
@@ -23,7 +28,7 @@ function App() {
       <Drinks drinks={drinksContent} />
       <Bartenders bartenders={data.bartenders} />
       <Testimonials testimonials={data.testimonials} />
-      <ContactUs />
+      <Footer />
     </div>
   );
 }
