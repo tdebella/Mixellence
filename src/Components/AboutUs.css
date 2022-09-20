@@ -1,14 +1,15 @@
 .about-wrap {
-  width: 1440px;
-  min-height: 338px;
-  margin-right: 100px;
-  margin-left: 10px;
+  width: 1240px;
+  height: 338px;
+  left: 100px;
+  top: 580px;
   justify-content: center;
   background-image: url("../assets/Photos/bg-about.png");
   background-color: #fafafa;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 100px right 0px;
+
 }
 
 .about-wrap h3 {
