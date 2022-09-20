@@ -4,7 +4,8 @@ import "./drinkCard.css";
 const DrinkCard = ({ drink }) => {
   //flip is used to set if we see the front or back of the drink card
   const [flip, setFlip] = useState(false);
-
+  
+  let image = drink.imgUrl.toString();
   return (
     <div
       className={`card ${flip ? "flip" : ""}`}
@@ -12,7 +13,7 @@ const DrinkCard = ({ drink }) => {
     >
       <div className="front">
         <img
-          src={require(`../assets/Photos/${drink.imgUrl}`)}
+          src={`${image}`}
           alt={drink.name}
         />
       </div>

@@ -1,7 +1,7 @@
 import './drinks.css'
 import DrinkCard from './DrinkCard';
 
-const Drinks = () => {
+const Drinks = ({drinks}) => {
     const drink_info = [
         {
             name: 'paloma',
@@ -22,11 +22,11 @@ const Drinks = () => {
     ]
     return (
         <div className='drinks'>
-           
+           {console.log('drinks ', drinks)}
             <h2 className='heading sectionTitle'>Drinks</h2>
             <div className='cardContainer'>
             {
-                drink_info.map(drink => <DrinkCard drink={drink} />)
+                drinks.map(drink => <DrinkCard drink={drink} />)
             }
             </div>
         </div>
