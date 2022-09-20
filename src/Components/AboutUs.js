@@ -1,11 +1,9 @@
 import React from "react";
 import "./AboutUs.css";
-import backgroundImage from "../assets/Photos/bg-about.png";
 
 const AboutUs = () => {
   return (
     <div className="about-wrap">
-      {/* <img src={backgroundImage} alt="background-image" /> */}
       <h3>ABOUT US</h3>
       <p className="text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad

@@ -12,19 +12,39 @@
 form {
   width: 49.5%;
   color: #fafafa;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 70px;
   float: left;
   padding: 30px;
 }
+input {
+  display: block;
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1.2px solid #fafafa;
+  padding: 20px 0;
+}
+input:focus {
+  outline: none;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #fafafa;
+}
 .form-input {
-  display: inline;
+  display: inline-block;
   text-decoration: none;
   width: 300px;
-  padding: 10px;
-  margin: 25px 2px 5px 10px;
+  padding: 18px;
+  letter-spacing: 2px;
   color: white;
   background-color: #212121;
+  margin: 25px 2px 5px 10px;
 }
 .btn {
   color: #212121;
@@ -38,6 +58,7 @@ form {
   text-align: center;
   border: 1px solid #fafafa;
   border-radius: 8px;
+  letter-spacing: 2px;
 }
 .btn:hover {
   background-color: #212121;

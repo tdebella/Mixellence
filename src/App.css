@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -9,15 +9,15 @@
   flex-direction: column;
   padding-top: 100px;
   align-items: center;
-  justify-content:center;
-  background-color: #FAFAFA;
+  justify-content: center;
+  background-color: #fafafa;
 }
 
 .heading {
   font-family: "Aboreto-Regular";
   font-weight: 400;
 }
-.sectionTitle{
+.sectionTitle {
   font-size: 56px;
   line-height: 64px;
 }

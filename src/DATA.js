@@ -20,34 +20,34 @@ module.exports = {
     bartenders: [
         {
             name: 'Hannah Gonzalez',
-            image: '../assets/Photos/michael-dam-mEZ3PoFGs_k-unsplash.jpg',
+            image: 'https://firebasestorage.googleapis.com/v0/b/upload-file-c1c11.appspot.com/o/hannah-gonzalez.jpg?alt=media&token=4813d987-2169-4937-926c-3742af23b607',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus'
         },
         {
             name: 'Ava Maxwell',
-            image: '../assets/Photos/prince-akachi-J1OScm_uHUQ-unsplash.jpg',
+            image: 'https://firebasestorage.googleapis.com/v0/b/upload-file-c1c11.appspot.com/o/ava-maxwell.jpg?alt=media&token=6f07c9ce-a9a4-4d62-9fef-1a4c5023c6ad',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus'
         },
         {
             name: 'Jack Allen',
-            image: '../assets/Photos/austin-wade-X6Uj51n5CE8-unsplash.jpg',
+            image: 'https://firebasestorage.googleapis.com/v0/b/upload-file-c1c11.appspot.com/o/jack-allen.jpg?alt=media&token=59399cf8-087f-4ecc-a9c0-50ed86920483',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus'
         }
     ],
     testimonials: [
         {
             name: 'Alyssa Meyers',
-            image: '../assets/Photos/aiony-haust-3TLl_97HNJo-unsplash.jpg',
+            image: 'https://firebasestorage.googleapis.com/v0/b/upload-file-c1c11.appspot.com/o/alyssa-meyers.jpg?alt=media&token=b7d2f7e8-46f9-4306-984e-32c77c623ee9',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus'
         },
         {
             name: 'John Alexander',
-            image: '../assets/Photos/albert-dera-ILip77SbmOE-unsplash.jpg',
+            image: 'https://firebasestorage.googleapis.com/v0/b/upload-file-c1c11.appspot.com/o/john-alexander.jpg?alt=media&token=f1b6a4de-18b9-4e80-97fa-246257bb8bc8',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus'
         },
         {
             name: 'Maya Hawk',
-            image: '../assets/Photos/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg',
+            image: 'https://firebasestorage.googleapis.com/v0/b/upload-file-c1c11.appspot.com/o/maya-hawk.jpg?alt=media&token=c715ef9e-81a9-49f3-b604-0af12d461bcb',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae mi consequat adipiscing phasellus'
         }
     ]
