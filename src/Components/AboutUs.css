@@ -1,23 +1,20 @@
-.about-wrap {
-  width: 1240px;
+.about {
+  width: 1440px;
   height: 338px;
-  left: 100px;
-  top: 580px;
   justify-content: center;
   background-image: url("../assets/Photos/bg-about.png");
   background-color: #fafafa;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 100px right 0px;
-
 }
 
-.about-wrap h3 {
+.title {
   font-family: "Aboreto-Regular";
   font-size: 56px;
   font-weight: normal;
   line-height: 64px;
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -26,5 +23,4 @@
   text-align: center;
   justify-content: center;
   line-height: 28px;
-  margin: 0 180px 0 200px;
 }

@@ -54,14 +54,48 @@ function App() {
   }, []);
 
   const data = DATA;
+  const arr = [
+    {
+      title: "title",
+      imgsrc: "imgsrc",
+      subTitle: "subTitle",
+      text: "text",
+      btnText: "btnText",
+    },
+    {
+      title: "title",
+      imgsrc: "imgsrc",
+      subTitle: "subTitle",
+      text: "text",
+      btnText: "btnText",
+    },
+    {
+      title: "title",
+      imgsrc: "imgsrc",
+      subTitle: "subTitle",
+      text: "text",
+      btnText: "btnText",
+    },
+    {
+      title: "title",
+      imgsrc: "imgsrc",
+      subTitle: "subTitle",
+      text: "text",
+      btnText: "btnText",
+    },
+  ];
 
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <AboutUs about={data.about} />
+      <AboutUs
+        about={data.about}
+        title={"ABOUT US"}
+        text={"some text to display"}
+      />
+      <Bartenders bartenders={arr} />
       <Drinks drinks={drinks} />
-      <Bartenders bartenders={data.bartenders} />
       <Testimonials testimonials={testimonials} />
       <Footer />
     </div>

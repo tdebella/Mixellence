@@ -64,12 +64,12 @@ textarea {
 
 /* contact  */
 .contact {
-  width: 49.5%;
+  float: right;
   font-family: "Montserrat";
   background-image: url("../assets/Photos/bg-footer.png");
   background-color: #212121;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top 50px right 110px;
 }
 .heading2 {
