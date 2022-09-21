@@ -1,4 +1,4 @@
-.bartenders {
+/* .bartenders {
   width: 1440px;
   min-height: 338px;
   margin: -50px 0px 0px -130px;
@@ -18,10 +18,10 @@
   margin: 50px 0px 50px 60px;
   text-align: center;
   color: #000000;
-}
+} */
 
 /* wrap1 */
-.wrap1 {
+/* .wrap1 {
   display: flex;
   background-color: #f7f6f6;
 }
@@ -54,10 +54,10 @@
 }
 .btn1 {
   margin-left: 40px;
-}
+} */
 
 /* wrap2 */
-.wrap2 {
+/* .wrap2 {
   display: flex;
   background-color: #f7f6f6;
 }
@@ -97,10 +97,10 @@
   background-position: top 30px 40px left;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 /* wrap3 */
-.wrap3 {
+/* .wrap3 {
   display: flex;
   background-color: #f7f6f6;
 }
@@ -134,4 +134,4 @@
   margin-bottom: 0;
   margin-left: 140px;
   float: left;
-}
+} */
