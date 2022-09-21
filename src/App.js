@@ -62,7 +62,7 @@ function App() {
       <AboutUs about={data.about} />
       <Drinks drinks={drinks} />
       <Bartenders bartenders={data.bartenders} />
-      <Testimonials testimonials={data.testimonials} />
+      <Testimonials testimonials={testimonials} />
       <Footer />
     </div>
   );

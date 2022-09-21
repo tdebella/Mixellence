@@ -7,7 +7,7 @@ const Drinks = ({drinks}) => {
             <h2 className='heading sectionTitle'>Drinks</h2>
             <div className='cardContainer'>
             {
-                drinks.map(drink => <DrinkCard drink={drink} />)
+                drinks.map(drink => <DrinkCard key={drink.id} drink={drink} />)
             }
             </div>
         </div>
