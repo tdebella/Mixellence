@@ -7,18 +7,52 @@ import Drinks from "./Components/Drinks";
 import Testimonials from "./Components/Testimonials";
 import DATA from "./DATA.js";
 import Footer from "./Components/Footer";
-// import {
-//   aboutContent,
-//   bartenderContent,
-//   drinksContent,
-//   testimonialsContent,
-// } from "./firebase-db";
+import { getDocs } from "firebase/firestore";
+import { aboutRef, barRef, drinksRef, testRef } from "./firebase-db";
+import { useEffect, useState } from "react";
 
 function App() {
-  //  console.log('about in app js ', aboutContent)
-  //  console.log('app js bartenders ', bartenderContent)
-  //  console.log('appjs drinks ', drinksContent)
-  //  console.log('appjs testimonials', testimonialsContent)
+  const [aboutUs, setAboutUs] = useState("");
+  const [bartenders, setBartenders] = useState([]);
+  const [drinks, setDrinks] = useState([]);
+  const [testimonials, setTestimonials] = useState([]);
+
+  useEffect(() => {
+    //get all the content from firestore database for each section
+    let aboutContent = [];
+
+    getDocs(aboutRef).then((res) => {
+      res.docs.forEach((docs) => {
+        aboutContent.push({ ...docs.data() });
+      });
+      setAboutUs(aboutContent[0].summary);
+    });
+
+    let bartenderContent = [];
+
+    getDocs(barRef).then((res) => {
+      res.docs.forEach((item) => {
+        bartenderContent.push({ ...item.data(), id: item.id });
+      });
+      setBartenders(bartenderContent);
+    });
+
+    let drinksContent = [];
+    getDocs(drinksRef).then((res) => {
+      res.docs.forEach((item) => {
+        drinksContent.push({ ...item.data(), id: item.id });
+      });
+      setDrinks(drinksContent);
+    });
+    let testimonialsContent = [];
+    getDocs(testRef).then((res) => {
+      res.docs.forEach((item) => {
+        testimonialsContent.push({ ...item.data(), id: item.id });
+      });
+      setTestimonials(testimonialsContent);
+    });
+  }, []);
+
   const data = DATA;
   const arr = [
     {
@@ -60,9 +94,9 @@ function App() {
         title={"ABOUT US"}
         text={"some text to display"}
       />
-      <Drinks drinks={data.drinks} />
       <Bartenders bartenders={arr} />
-      <Testimonials testimonials={data.testimonials} />
+      <Drinks drinks={drinks} />
+      <Testimonials testimonials={testimonials} />
       <Footer />
     </div>
   );
