@@ -2,7 +2,6 @@ import './drinks.css'
 import DrinkCard from './DrinkCard';
 
 const Drinks = ({drinks}) => {
-  
     return (
         <div className='drinks'>
             <h2 className='heading sectionTitle'>Drinks</h2>
