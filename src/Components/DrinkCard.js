@@ -6,7 +6,6 @@ const DrinkCard = ({ drink }) => {
   const [flip, setFlip] = useState(false);
   
   let image = drink.photo.toString();
-
   return (
     <div
       className={`card ${flip ? "flip" : ""}`}
