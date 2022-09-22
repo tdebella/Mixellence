@@ -23,3 +23,13 @@ export const StyledButton = styled.button`
     background-color: transparent;
   }
 `;
+
+export const ModalBackdrop = styled.div`
+  background-color: #212121;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+`
