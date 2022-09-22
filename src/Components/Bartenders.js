@@ -1,15 +1,21 @@
-import Bartender from "./Bartender";
-// import { StyledButton } from "../styled-components/styled-components";
+import BartenderRight from "./BartenderRight";
+import BartenderLeft from "./BartenderLeft";
 
 const Bartenders = (props) => {
-  // console.log(props);
+  let left = true;
   return (
-    <div className="wrapper">
+    <>
       <h1 className="title">GET TO KNOW YOUR BARTENDERS</h1>
-      {props.bartenders.map((bartender) => (
-        <Bartender bartender={bartender} />
-      ))}
-    </div>
+      {props.bartenders.map((bartender) => {
+        if (left) {
+          left = !left;
+          return <BartenderLeft bartender={bartender} />;
+        } else {
+          left = !left;
+          return <BartenderRight bartender={bartender} />;
+        }
+      })}
+    </>
   );
 };
 

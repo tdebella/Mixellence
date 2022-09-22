@@ -2,8 +2,8 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import AboutUs from "./Components/AboutUs";
-import Bartenders from "./Components/Bartenders";
 import Drinks from "./Components/Drinks";
+import Bartenders from "./Components/Bartenders";
 import Testimonials from "./Components/Testimonials";
 import DATA from "./DATA.js";
 import Footer from "./Components/Footer";
@@ -89,13 +89,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <AboutUs
-        about={data.about}
-        title={"ABOUT US"}
-        text={"some text to display"}
-      />
-      <Bartenders bartenders={arr} />
+      <AboutUs aboutUS={aboutUs} />
       <Drinks drinks={drinks} />
+      <Bartenders bartenders={bartenders} />
       <Testimonials testimonials={testimonials} />
       <Footer />
     </div>
