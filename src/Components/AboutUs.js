@@ -4,7 +4,7 @@ import "./AboutUs.css";
 const AboutUs = (props) => {
   
   return (
-    <div id="id" className="about">
+    <div id="about" className="about">
       <h1 className="title">{"aboutUs"}</h1>
       <p className="text">{props.aboutUS}</p>
     </div>
