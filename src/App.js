@@ -2,8 +2,8 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import AboutUs from "./Components/AboutUs";
-import Bartenders from "./Components/Bartenders";
 import Drinks from "./Components/Drinks";
+import Bartenders from "./Components/Bartenders";
 import Testimonials from "./Components/Testimonials";
 import DATA from "./DATA.js";
 import Footer from "./Components/Footer";
@@ -62,10 +62,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <AboutUs about={data.about} />
+      <AboutUs aboutUS={aboutUs} />
       <Drinks drinks={drinks} />
       <AddItem itemType={'drink'} />
-      <Bartenders bartenders={data.bartenders} />
+      <Bartenders bartenders={bartenders} />
       <AddItem itemType={'bartender'} />
       <Testimonials testimonials={testimonials} />
       <AddItem itemType={'testimonial'} />

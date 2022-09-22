@@ -3,6 +3,7 @@ import Testimonial from './Testimonial';
 
 const Testimonials = (props) => {
     let testimonials = props.testimonials;
+    console.log('in testimonials ', testimonials)
     return (
         <div className='testimonials'>
             <h2 className='heading sectionTitle'>Testimonials</h2>
