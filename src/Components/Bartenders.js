@@ -4,7 +4,7 @@ import BartenderLeft from "./BartenderLeft";
 const Bartenders = (props) => {
   let left = true;
   return (
-    <>
+    <div id="bartenders" style={{paddingLeft: "100px", paddingRight: "100px"}}>
       <h1 className="title">GET TO KNOW YOUR BARTENDERS</h1>
       {props.bartenders.map((bartender) => {
         if (left) {
@@ -15,7 +15,7 @@ const Bartenders = (props) => {
           return <BartenderRight bartender={bartender} />;
         }
       })}
-    </>
+    </div>
   );
 };
 
