@@ -1,5 +1,6 @@
 import "./Footer.css";
 import React from "react";
+import { StyledButton } from "../styled-components/styled-components";
 
 // social icons
 import Instagram from "../assets/Photos/instagram.png";
@@ -46,10 +47,7 @@ const ContactUs = () => {
             name="message"
             required
           />
-          <br /> <br />
-          <button className="btn" type="submit">
-            Send
-          </button>
+          <StyledButton>{"Send"}</StyledButton>
         </form>
 
         <div className="contact">
