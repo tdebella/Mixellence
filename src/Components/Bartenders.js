@@ -1,15 +1,14 @@
 import Bartender from "./Bartender";
-// import { StyledButton } from "../styled-components/styled-components";
+import BartenderRight from "./BartenderRight";
 
 const Bartenders = (props) => {
-  // console.log(props);
   return (
-    <div className="wrapper">
+    <>
       <h1 className="title">GET TO KNOW YOUR BARTENDERS</h1>
       {props.bartenders.map((bartender) => (
-        <Bartender bartender={bartender} />
+        <BartenderRight bartender={bartender} />
       ))}
-    </div>
+    </>
   );
 };
 

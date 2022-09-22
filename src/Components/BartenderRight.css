@@ -1,0 +1,8 @@
+.bartenderRight img {
+  display: flex;
+  width: 350px;
+  height: 450px;
+  float: right;
+  padding-bottom: 35px;
+  margin: 50px;
+}
