@@ -10,13 +10,16 @@ import Footer from "./Components/Footer";
 import { getDocs } from "firebase/firestore";
 import { aboutRef, barRef, drinksRef, testRef } from "./firebase-db";
 import { useEffect, useState } from "react";
+import AddItem from "./Components/dashboard/AddItem";
+import { ModalBackdrop } from "./styled-components/styled-components";
 
 function App() {
   const [aboutUs, setAboutUs] = useState("");
   const [bartenders, setBartenders] = useState([]);
   const [drinks, setDrinks] = useState([]);
   const [testimonials, setTestimonials] = useState([]);
-
+  const [loggedIn, setLoggedIn] = useState(false)
+  
   useEffect(() => {
     //get all the content from firestore database for each section
     let aboutContent = [];
@@ -54,36 +57,6 @@ function App() {
   }, []);
 
   const data = DATA;
-  const arr = [
-    {
-      title: "title",
-      imgsrc: "imgsrc",
-      subTitle: "subTitle",
-      text: "text",
-      btnText: "btnText",
-    },
-    {
-      title: "title",
-      imgsrc: "imgsrc",
-      subTitle: "subTitle",
-      text: "text",
-      btnText: "btnText",
-    },
-    {
-      title: "title",
-      imgsrc: "imgsrc",
-      subTitle: "subTitle",
-      text: "text",
-      btnText: "btnText",
-    },
-    {
-      title: "title",
-      imgsrc: "imgsrc",
-      subTitle: "subTitle",
-      text: "text",
-      btnText: "btnText",
-    },
-  ];
 
   return (
     <div className="App">
@@ -91,8 +64,11 @@ function App() {
       <Hero />
       <AboutUs aboutUS={aboutUs} />
       <Drinks drinks={drinks} />
+      <AddItem itemType={'drink'} />
       <Bartenders bartenders={bartenders} />
+      <AddItem itemType={'bartender'} />
       <Testimonials testimonials={testimonials} />
+      <AddItem itemType={'testimonial'} />
       <Footer />
     </div>
   );
