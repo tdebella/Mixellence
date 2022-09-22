@@ -8,7 +8,7 @@ import Twitter from "../assets/Photos/twitter.png";
 
 const ContactUs = () => {
   return (
-    <div className="contact-page">
+    <div id="contact" className="contact-page">
       <div className="form-contact">
         <form>
           <input

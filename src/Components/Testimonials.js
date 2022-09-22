@@ -5,7 +5,7 @@ const Testimonials = (props) => {
     let testimonials = props.testimonials;
     console.log('in testimonials ', testimonials)
     return (
-        <div className='testimonials'>
+        <div id="testimonials" className='testimonials'>
             <h2 className='heading sectionTitle'>Testimonials</h2>
             <div className='testimonialCardContainer'>
                 {testimonials.map(item => <Testimonial key={item.id} info={item} />)}

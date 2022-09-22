@@ -3,7 +3,7 @@ import DrinkCard from './DrinkCard';
 
 const Drinks = ({drinks}) => {
     return (
-        <div className='drinks'>
+        <div id="drinks" className='drinks'>
             <h2 className='heading sectionTitle'>Drinks</h2>
             <div className='cardContainer'>
             {
