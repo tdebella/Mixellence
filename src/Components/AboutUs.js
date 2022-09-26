@@ -1,12 +1,11 @@
 import React from "react";
-import "./AboutUs.css";
+import AboutUsCSS from "./AboutUs.module.css";
 
 const AboutUs = (props) => {
-  
   return (
-    <div id="about" className="about">
-      <h1 className="title">{"aboutUs"}</h1>
-      <p className="text">{props.aboutUS}</p>
+    <div id="about" className={AboutUsCSS.about}>
+      <h1 className={AboutUsCSS.title}>{"aboutUs"}</h1>
+      <p className={AboutUsCSS.text}>{props.aboutUS}</p>
     </div>
   );
 };

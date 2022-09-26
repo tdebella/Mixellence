@@ -1,5 +1,6 @@
-import "./Footer.css";
 import React from "react";
+import FooterCSS from "./Footer.module.css";
+import { StyledButton } from "../styled-components/styled-components";
 
 // social icons
 import Instagram from "../assets/Photos/instagram.png";
@@ -8,53 +9,48 @@ import Twitter from "../assets/Photos/twitter.png";
 
 const ContactUs = () => {
   return (
-    <div id="contact" className="contact-page">
-      <div className="form-contact">
+    <div id="contact" className={FooterCSS.contactPage}>
+      <div className={FooterCSS.formContact}>
         <form>
           <input
-            className="form-input"
+            className={FooterCSS.formInput}
             type="text"
             placeholder="Your Name"
-            name="name"
             required
           />
           <input
-            className="form-input"
+            className={FooterCSS.formInput}
             type="email"
             placeholder="Your Email"
-            name="email"
             required
           />
           <input
-            className="form-input"
+            className={FooterCSS.formInput}
             type="number"
             placeholder="Phone Number"
-            name="phone_number"
             required
           />
           <input
-            className="form-input"
+            className={FooterCSS.formInput}
             type="text"
-            placeholder="Interested in"
+            placeholder="Interested in "
             name="Interested in"
             required
           />
-          <textarea
-            className="form-input"
+          <input
+            className={FooterCSS.formInput}
             type="message"
             placeholder="Message"
-            name="message"
             required
-          />
+          />{" "}
           <br /> <br />
-          <button className="btn" type="submit">
-            Send
-          </button>
+          <br />
+          <StyledButton>{"Send"}</StyledButton>
         </form>
 
-        <div className="contact">
-          <h3 className="heading2">CONTACT __________US</h3>
-          <p className="bodyText-2">
+        <div className={FooterCSS.contact}>
+          <h3 className={FooterCSS.heading2}>CONTACT __________US</h3>
+          <p className={FooterCSS.bodyText2}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Repudiandae laboriosam nam eius ab nihil, temporibus sequi qui,
             earum quidem praesentium pariatur distinctio.
@@ -62,15 +58,15 @@ const ContactUs = () => {
         </div>
       </div>
 
-      <div className="social">
+      <div className={FooterCSS.social}>
         <div>
-          <img className="col" src={Instagram} alt="icon-instagram" />
+          <img className={FooterCSS.col} src={Instagram} alt="icon-instagram" />
         </div>
         <div>
-          <img className="col" src={Facebook} alt="icon-facebook" />
+          <img className={FooterCSS.col} src={Facebook} alt="icon-facebook" />
         </div>
         <div>
-          <img className="col" src={Twitter} alt="icon-twitter" />
+          <img className={FooterCSS.col} src={Twitter} alt="icon-twitter" />
         </div>
       </div>
     </div>
