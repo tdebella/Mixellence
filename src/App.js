@@ -18,8 +18,8 @@ function App() {
   const [bartenders, setBartenders] = useState([]);
   const [drinks, setDrinks] = useState([]);
   const [testimonials, setTestimonials] = useState([]);
-  const [loggedIn, setLoggedIn] = useState(false)
-  
+  const [loggedIn, setLoggedIn] = useState(false);
+
   useEffect(() => {
     //get all the content from firestore database for each section
     let aboutContent = [];
@@ -64,11 +64,11 @@ function App() {
       <Hero />
       <AboutUs aboutUS={aboutUs} />
       <Drinks drinks={drinks} />
-      <AddItem itemType={'drink'} />
+      <AddItem itemType={"drink"} />
       <Bartenders bartenders={bartenders} />
-      <AddItem itemType={'bartender'} />
+      <AddItem itemType={"bartender"} />
       <Testimonials testimonials={testimonials} />
-      <AddItem itemType={'testimonial'} />
+      <AddItem itemType={"testimonial"} />
       <Footer />
     </div>
   );
