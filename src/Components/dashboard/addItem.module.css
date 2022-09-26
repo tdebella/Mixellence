@@ -1,12 +1,12 @@
-.addItem{
-    background-color: #212121;
-    height: 450px;
-    width: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 80px;
+.addItem {
+  background-color: #212121;
+  height: 450px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
 }
-.addItem:hover{
-    cursor: pointer;
+.addItem:hover {
+  cursor: pointer;
 }

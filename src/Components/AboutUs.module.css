@@ -3,10 +3,9 @@
   height: 338px;
   justify-content: center;
   background-image: url("../assets/Photos/bg-about.png");
-  background-color: #fafafa;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top 100px right 0px;
+  background-position: top 70px right 0px;
 }
 
 .title {
@@ -15,11 +14,18 @@
   font-weight: normal;
   line-height: 64px;
   text-align: center;
+  margin-top: 60px;
+  padding-top: 20px;
 }
 
 .text {
+  font-family: "Montserrat";
+  width: 1240px;
+  height: 224px;
   font-size: 18px;
+  font-weight: 400;
   text-align: center;
   justify-content: center;
   line-height: 28px;
+  margin: 30px 100px;
 }

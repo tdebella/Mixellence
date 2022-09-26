@@ -1,11 +1,11 @@
-.contact-page {
+.contactPage {
   background-color: #212121;
   width: 1440px;
   height: 504px;
   top: 4067px;
   display: block;
 }
-.form-contact {
+.formContact {
   display: flex;
 }
 form {
@@ -24,12 +24,12 @@ input {
 input:focus {
   outline: none;
 }
-
 textarea {
   border: none;
   border-bottom: 1px solid #fafafa;
 }
-.form-input {
+
+.formInput {
   display: inline-block;
   text-decoration: none;
   padding: 18px;
@@ -56,7 +56,7 @@ textarea {
   margin-top: 70px;
   margin-left: 250px;
 }
-.bodyText-2 {
+.bodyText2 {
   font-size: 18px;
   line-height: 38px;
   color: #fafafa;
