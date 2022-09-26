@@ -1,7 +1,6 @@
 import React from "react";
 import FooterCSS from "./Footer.module.css";
 import { StyledButton } from "../styled-components/styled-components";
-// import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 // social icons
 import Instagram from "../assets/Photos/instagram.png";

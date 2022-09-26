@@ -1,0 +1,62 @@
+.wrapper {
+  background-color: #fff;
+  width: 1100px;
+}
+.login {
+  font-family: "Aboreto";
+  background-color: #212121;
+
+  /* justify-content: center;
+  background-image: url("../assets/Photos/bg-about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 70px right 0px; */
+}
+
+h1 {
+  font-family: "Aboreto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+/* .inputWrap {
+  background-color: #fff;
+  padding: 0px 2px 5px 0px;
+  border: 0.1px solid #fafafa;
+  margin-right: 70px;
+} */
+input {
+  border: 0.1px solid #fafafa;
+  background-color: #fff;
+  padding: 0px 2px 5px 0px;
+  margin-right: 70px;
+}
+.textWrap {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 35px;
+  padding-bottom: 30px;
+}
+.btn {
+  padding: 5px;
+}
+
+.reset {
+  color: green;
+  margin-right: 60px;
+}
+
+.social {
+  display: flex;
+  background-color: #212121;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.icon {
+  padding: 0 10px;
+  justify-content: center;
+}

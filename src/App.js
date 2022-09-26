@@ -1,17 +1,10 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import AboutUs from "./Components/AboutUs";
-import Drinks from "./Components/Drinks";
-import Bartenders from "./Components/Bartenders";
-import Testimonials from "./Components/Testimonials";
-import DATA from "./DATA.js";
-import Footer from "./Components/Footer";
 import { getDocs } from "firebase/firestore";
 import { aboutRef, barRef, drinksRef, testRef } from "./firebase-db";
 import { useEffect, useState } from "react";
 import AddItem from "./Components/dashboard/AddItem";
 import { ModalBackdrop } from "./styled-components/styled-components";
+import MainPage from "./Components/MainPage";
 
 function App() {
   const [aboutUs, setAboutUs] = useState("");
@@ -56,20 +49,14 @@ function App() {
     });
   }, []);
 
-  const data = DATA;
-
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <AboutUs aboutUS={aboutUs} />
-      <Drinks drinks={drinks} />
-      <AddItem itemType={"drink"} />
-      <Bartenders bartenders={bartenders} />
-      <AddItem itemType={"bartender"} />
-      <Testimonials testimonials={testimonials} />
-      <AddItem itemType={"testimonial"} />
-      <Footer />
+      <MainPage
+        bartenders={bartenders}
+        aboutUs={aboutUs}
+        drinks={drinks}
+        testimonials={testimonials}
+      />
     </div>
   );
 }
