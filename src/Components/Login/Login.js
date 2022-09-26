@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Login.module.css";
+import { Link } from "react-router-dom";
 import { StyledButton } from "../../styled-components/styled-components";
 
 // social icons
@@ -27,7 +28,9 @@ const Login = () => {
           <ul className={classes.textWrap}>
             <li>Forgot Password?</li>
             <li>
-              <a className={classes.reset}>Reset</a>
+              <Link to="/reset" className={classes.reset}>
+                Reset
+              </Link>
             </li>
           </ul>
         </form>

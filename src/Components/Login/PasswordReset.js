@@ -6,7 +6,7 @@ const PasswordReset = () => {
     <>
       <div className={classes.passwordReset}>
         <form>
-          <h1 className={classes.title}>PASSWORD RESET</h1> <br /> <br />
+          <h1 className={classes.title}>PASSWORD RESET</h1> <br /> 
           <label>
             Email:
             <input className={classes.wrap} type="text" />
