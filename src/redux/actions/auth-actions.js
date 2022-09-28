@@ -19,7 +19,9 @@ export const logInUser = (email, password) => {
       .then(res => res.json())
       .then(data => {
             //save token to local storage
-            //
+            //localStorage.setItem('token', data.token)
+            //console.log('res data ', data)
+            //console.log('token? ', data.token)
             dispatch(authActions.logIn())
         })
     } catch (error) {
