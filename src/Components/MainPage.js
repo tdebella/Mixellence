@@ -11,7 +11,6 @@ import Testimonials from "../Components/Testimonials";
 import Footer from "../Components/Footer";
 
 const MainPage = () => {
-
   const [aboutUs, setAboutUs] = useState("");
   const [bartenders, setBartenders] = useState([]);
   const [drinks, setDrinks] = useState([]);

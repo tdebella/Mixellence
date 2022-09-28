@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Login.module.css";
+import "./PasswordReset.css";
 import { Link } from "react-router-dom";
 import { StyledButton } from "../../styled-components/styled-components";
 
@@ -10,44 +10,49 @@ import Twitter from "../../assets/Photos/twitter.png";
 
 const Login = () => {
   return (
-    <div className="wrapper">
-      <div className={classes.login}>
+    <>
+      <div className="passwordReset">
+        <h1 className="title2">LOGIN</h1>
         <form>
-          <h1>LOGIN</h1> <br /> <br />
-          <label>
-            Username:
-            <input className={classes.inputWrap} type="text" />
-          </label>
-          <br />
-          <label>
-            Password:
-            <input className={classes.inputWrap} type="password" />
-          </label>{" "}
-          <br />
-          <button className={classes.btn}>{"Login"}</button>
-          <ul className={classes.textWrap}>
-            <li>Forgot Password?</li>
-            <li>
-              <Link to="/reset" className={classes.reset}>
+          <div className="wrap2">
+            <div className="inputWrapper2">
+              <label className="username">Username: </label>
+              <input type="text" />
+            </div>
+
+            <div className="inputWrapper2">
+              <label>Password: </label>
+              <input type="password" />
+            </div>
+            <StyledButton
+              style={{ width: "60px", padding: "0 0px 0 0px", align: "left" }}
+            >
+              {"Login"}
+            </StyledButton>
+          </div>
+          <div className="text">
+            <p className="txt">Forgot Password?</p>
+            <p>
+              <Link to="/passwordReset" className="link">
                 Reset
               </Link>
-            </li>
-          </ul>
+            </p>
+          </div>
         </form>
-      </div>{" "}
-      <br />
-      <div className={classes.social}>
+      </div>
+      <br /> <br />
+      <div className="social">
         <div>
-          <img className={classes.icon} src={Instagram} alt="icon-instagram" />
+          <img className="icon" src={Instagram} alt="icon-instagram" />
         </div>
         <div>
-          <img className={classes.icon} src={Facebook} alt="icon-facebook" />
+          <img className="icon" src={Facebook} alt="icon-facebook" />
         </div>
         <div>
-          <img className={classes.icon} src={Twitter} alt="icon-twitter" />
+          <img className="icon" src={Twitter} alt="icon-twitter" />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
