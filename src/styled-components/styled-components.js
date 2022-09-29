@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 //  default displays as white button
 //  add primary to display as black button
 /* <StyledButton primary>Will display as black button</StyledButton> */
