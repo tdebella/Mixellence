@@ -4,11 +4,10 @@ import classes from './addItem.module.css'
 const AddItem = (props) => {
     //props will have the type of item we're adding
     //ex. drink, bartender, testimonial
-    //
+    
     let itemType = props.itemType;
     console.log(itemType)
-    //The onClick function can open the modal for the section it's in
-    //and the modal will have functionality to add to that section.
+    //The onClick function can open the modal for the section it's in and the modal will have functionality to add to that section.
     const openModal = (itemType) => {
         console.log('modaled ', itemType)
     }
