@@ -15,15 +15,17 @@
 }
 
 .logo {
+  width: 205px;
+  height: 30px;
+}
+.logo a{
+  text-decoration: none;
   font-family: "Times";
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
   color: #212121;
-  width: 205px;
-  height: 30px;
 }
-
 .nav {
   font-family: "Aboreto";
   font-weight: 400;

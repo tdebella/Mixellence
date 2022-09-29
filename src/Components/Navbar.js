@@ -9,7 +9,7 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="logo" alt="logo-title">
-        <span>MIXELLENCE</span>
+        <a href={path ? home : "#top"}>MIXELLENCE</a>
       </div>
 
       <nav className="nav">
