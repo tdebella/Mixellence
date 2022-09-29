@@ -1,4 +1,3 @@
-import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import AboutUs from "../Components/AboutUs";
 import Drinks from "../Components/Drinks";
@@ -25,7 +24,6 @@ const MainPage = () => {
 
   return (
     <>
-      <Navbar />
       <Hero />
       <AboutUs aboutUS={aboutUs} />
       <Drinks drinks={drinks} />
