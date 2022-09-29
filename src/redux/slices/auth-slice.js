@@ -1,7 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
 
+//get local storage token, if exists then loggedIn = true
+const localToken = localStorage.getItem('token')
 const initialAuthState = {
-    token: null
+    loggedIn: localToken ? true : false
 }
 
 //keep track of being logged in or not
@@ -10,10 +12,10 @@ const authSlice = createSlice({
     initialState: initialAuthState,
     reducers: {
         logIn: (state, action) => {
-            state.token = action.payload 
+            state.loggedIn = true 
         },
         logOut: (state) => {
-            state.token = null
+            state.loggedIn = false
         }
     }
 })
