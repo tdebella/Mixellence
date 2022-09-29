@@ -1,6 +1,6 @@
 import firebaseConfig from './firebase-config'
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection,getDocs } from "firebase/firestore";
+import { getFirestore, collection } from "firebase/firestore";
 
 // Web app's Firebase configuration
 // Initialize Firebase
