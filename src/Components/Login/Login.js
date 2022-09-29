@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./PasswordReset.css";
 import { Link } from "react-router-dom";
 import { StyledButton } from "../../styled-components/styled-components";
@@ -9,6 +9,23 @@ import Facebook from "../../assets/Photos/facebook.png";
 import Twitter from "../../assets/Photos/twitter.png";
 
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+    // console.log(email);
+    // console.log(password);
+  };
+
+  const emailHandler = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const passwordHandler = (e) => {
+    setPassword(e.target.value);
+  };
+
   return (
     <>
       <div className="passwordReset">
@@ -16,15 +33,20 @@ const Login = () => {
         <form>
           <div className="wrap2">
             <div className="inputWrapper2">
-              <label className="username">Username: </label>
-              <input type="text" />
+              <label className="username">Email: </label>
+              <input type="text" value={email} onChange={emailHandler} />
             </div>
 
             <div className="inputWrapper2">
               <label>Password: </label>
-              <input type="password" />
+              <input
+                type="password"
+                value={password}
+                onChange={passwordHandler}
+              />
             </div>
             <StyledButton
+              onClick={submitHandler}
               style={{ width: "60px", padding: "0 0px 0 0px", align: "left" }}
             >
               {"Login"}
