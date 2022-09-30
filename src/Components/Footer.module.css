@@ -46,7 +46,7 @@ textarea {
   background-image: url("../assets/Photos/bg-footer.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top 10px right 90px;
+  background-position: top 1px right 110px;
 }
 .heading2 {
   font-family: "Aboreto-regular";
@@ -54,7 +54,7 @@ textarea {
   font-size: 56px;
   line-height: 64px;
   color: #fafafa;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 250px;
 }
 .bodyText2 {
