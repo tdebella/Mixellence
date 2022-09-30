@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./PasswordReset.css";
 import { StyledButton } from "../../styled-components/styled-components";
 
@@ -8,6 +8,21 @@ import Facebook from "../../assets/Photos/facebook.png";
 import Twitter from "../../assets/Photos/twitter.png";
 
 const PasswordReset = () => {
+  const [email, setEmail] = useState("");
+  const [reEnterEmail, setReEnterEmail] = useState("");
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+    console.log(email);
+    console.log(reEnterEmail);
+  };
+  const emailHandler = (e) => {
+    setEmail(e.target.value);
+  };
+  const ReEnterEmailHandler = (e) => {
+    setReEnterEmail(e.target.value);
+  };
+
   return (
     <>
       <div className="passwordReset">
@@ -16,13 +31,18 @@ const PasswordReset = () => {
           <div className="wrap2">
             <div className="inputWrapper2">
               <label className="email">Email: </label>
-              <input type="text" />
+              <input type="text" value={email} onChange={emailHandler} />
             </div>
             <div className="inputWrapper2">
               <label>Re-enter Email: </label>
-              <input type="text" />
+              <input
+                type="text"
+                value={reEnterEmail}
+                onChange={ReEnterEmailHandler}
+              />
             </div>
             <StyledButton
+              onClick={submitHandler}
               style={{ width: "60px", padding: "0 0px 0 0px", align: "left" }}
             >
               {"Send"}
