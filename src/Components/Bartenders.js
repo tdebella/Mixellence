@@ -14,10 +14,10 @@ const Bartenders = (props) => {
         {props.bartenders.map((bartender) => {
           if (left) {
             left = !left;
-            return <BartenderLeft bartender={bartender} />;
+            return <BartenderLeft bartender={bartender} key={bartender.id} />;
           } else {
             left = !left;
-            return <BartenderRight bartender={bartender} />;
+            return <BartenderRight bartender={bartender} key={bartender.id} />;
           }
         })}
       </div>
