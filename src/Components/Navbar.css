@@ -12,13 +12,14 @@
   left: 0px;
   font-family: "Aberato";
   z-index: 13;
+  border: 10px solid royalblue;
 }
 
 .logo {
   width: 205px;
   height: 30px;
 }
-.logo a{
+.logo a {
   text-decoration: none;
   font-family: "Times";
   font-weight: 400;

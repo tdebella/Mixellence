@@ -2,8 +2,10 @@
   background-color: #212121;
   width: 1440px;
   height: 504px;
+  margin-top: 100px;
   top: 4067px;
   display: block;
+  border: 10px solid red;
 }
 .formContact {
   display: flex;
