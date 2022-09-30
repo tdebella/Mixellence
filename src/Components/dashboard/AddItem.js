@@ -12,7 +12,7 @@ const AddItem = (props) => {
     console.log("modaled ", itemType);
   };
   return (
-    <button className={classes.addItem} onClick={() => openModal(itemType)}>
+    <button className={classes.addItem} onClick={props.onClick}>
       <img src={PlusCircle} alt="add item" />
     </button>
   );
