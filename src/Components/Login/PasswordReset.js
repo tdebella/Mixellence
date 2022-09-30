@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./PasswordReset.css";
 import { StyledButton } from "../../styled-components/styled-components";
+import { getAuth, sendPasswordResetEmail } from "firebase/auth";
 
 // social icons
 import Instagram from "../../assets/Photos/instagram.png";
@@ -11,10 +12,25 @@ const PasswordReset = () => {
   const [email, setEmail] = useState("");
   const [reEnterEmail, setReEnterEmail] = useState("");
 
+  const auth = getAuth();
+
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log(email);
-    console.log(reEnterEmail);
+
+    sendPasswordResetEmail(auth, email)
+      .then(() => {
+        console.log("something else!");
+        // Password reset email sent!
+        // ..
+      })
+      .catch((error) => {
+        console.log("no");
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        // ..
+      });
+    // console.log(email);
+    // console.log(reEnterEmail);
   };
   const emailHandler = (e) => {
     setEmail(e.target.value);
