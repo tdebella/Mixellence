@@ -6,6 +6,7 @@ import { StyledButton } from "../styled-components/styled-components";
 import Instagram from "../assets/Photos/instagram.png";
 import Facebook from "../assets/Photos/facebook.png";
 import Twitter from "../assets/Photos/twitter.png";
+import Downarrow from "../assets/Photos/downarrow.png";
 
 const ContactUs = () => {
   return (
@@ -37,6 +38,7 @@ const ContactUs = () => {
             name="Interested in"
             required
           />
+          <img src={Downarrow} alt="downarrow" />
           <input
             className={FooterCSS.formInput}
             type="message"
