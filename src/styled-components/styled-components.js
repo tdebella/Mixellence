@@ -24,9 +24,14 @@ export const StyledButton = styled.button`
 export const ModalBackdrop = styled.div`
   background-color: #212121;
   opacity: 0.75;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  z-index: 13;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
