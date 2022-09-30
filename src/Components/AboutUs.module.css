@@ -4,8 +4,8 @@
   justify-content: center;
   background-image: url("../assets/Photos/bg-about.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top 70px right 0px;
+  background-size: contain;
+  background-position: center;
 }
 
 .title {

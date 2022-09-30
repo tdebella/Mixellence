@@ -53,9 +53,10 @@ const ContactUs = () => {
         <div className={FooterCSS.contact}>
           <h3 className={FooterCSS.heading2}>CONTACT __________US</h3>
           <p className={FooterCSS.bodyText2}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repudiandae laboriosam nam eius ab nihil, temporibus sequi qui,
-            earum quidem praesentium pariatur distinctio.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            repellendus iure sed non, autem error. In blanditiis soluta nisi
+            porro incidunt, sapiente obcaecati reprehenderit consequuntur quis
+            atque iure sed non, autem error. iure sed non, autem error.
           </p>
         </div>
       </div>
