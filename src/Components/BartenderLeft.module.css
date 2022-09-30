@@ -3,16 +3,24 @@
   width: 350px;
   height: 450px;
   float: left;
-  padding: 35px;
+  margin-left: -10px;
+}
+.bartenderLeft img,
+.subTitle {
+  padding-right: 25px;
 }
 
 .subTitle {
   font-family: "Aboreto-Regular";
   text-align: left;
+  justify-content: start;
   font-size: 24px;
-  padding: 70px 10px;
   margin: 80px 0px 25px 0px;
-  height: 32px;
+  padding: 40px 10px 50px;
+}
+.subTitle,
+.text {
+  padding-bottom: 40px;
 }
 
 .text {
@@ -22,5 +30,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  padding: 10px 5px 30px 15px;
+  padding: 20px 5px 5px -75px;
+  margin: 10px 5px 15px -1px;
 }
