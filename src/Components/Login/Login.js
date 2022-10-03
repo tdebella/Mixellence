@@ -41,7 +41,7 @@ const Login = () => {
             //
             localStorage.setItem('token', data.idToken)
             dispatch(authActions.logIn())
-            navigate('/')
+            navigate('/dashboard')
         })
     } catch (error) {
       console.log(error);
