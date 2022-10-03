@@ -11,7 +11,7 @@ import { ModalBackdrop } from "../../styled-components/styled-components";
 import { useState } from "react";
 import AddItem from "./AddItem";
 import classes from "./dashboard.module.css";
-import UpdateItem from "./UpdateItem";
+import AddItemForm from "./AddItemForm";
 import ReactDOM from "react-dom";
 // import Modal from "../dashboard/Modal";
 
@@ -50,7 +50,7 @@ const Dashboard = () => {
         )}
       {showModal &&
         ReactDOM.createPortal(
-          <UpdateItem />,
+          <AddItemForm />,
           document.getElementById("modalContent")
         )}
       <Hero />

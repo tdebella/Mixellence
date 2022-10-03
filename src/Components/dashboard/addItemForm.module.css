@@ -8,8 +8,8 @@
   align-items: baseline;
 
   position: fixed;
-  top: 25%;
-  left: 25%;
+  top: 20%;
+  left: 15%;
   z-index: 16;
 }
 
@@ -21,12 +21,28 @@
   font-family: "Aboreto-Regular";
 }
 .modalLeft img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   margin: 30px;
   width: 150px;
   height: 200px;
   padding-top: 45px;
   margin-top: 60px;
   margin-left: 70px;
+}
+.modalLeft input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 30px;
+  width: 150px;
+  height: 200px;
+  padding-top: 45px;
+  margin-top: 60px;
+  margin-left: 70px;
+  cursor: pointer;
+  opacity: 0;
 }
 .modalRight {
   width: 600px;
@@ -46,14 +62,17 @@
   padding-top: 10px;
   padding-left: 10px;
   font-family: "Aboreto-Regular";
+  color: white;
 }
 .desc {
   width: 600px;
-  height: 180px;
+  height: fit-content;
   background: #212121;
   margin: 25px 25px;
   font-size: 12px;
   font-family: "Aboreto-Regular";
+  color: white;
+  padding: 4px;
 }
 
 .btn {
