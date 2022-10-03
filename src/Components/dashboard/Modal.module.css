@@ -1,8 +1,8 @@
-.container {
-  width: 950px;
-  height: 350px;
+/* .container {
+  width: 100%;
+  height: 220px;
   background-color: #fafafa;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
   flex-flow: column wrap;
   align-items: baseline;
@@ -14,55 +14,48 @@
 }
 
 .modalLeft {
-  width: 450px;
-  height: 350px;
+  width: 180px;
+  height: 220px;
   background: #212121;
   color: #fafafa;
   font-family: "Aboreto-Regular";
 }
 .modalLeft img {
   margin: 30px;
-  width: 150px;
-  height: 200px;
-  padding-top: 45px;
-  margin-top: 60px;
-  margin-left: 70px;
+  width: 120px;
+  height: 130px;
+  padding-top: 15px;
 }
 .modalRight {
-  width: 600px;
-  height: 400px;
+  width: 420px;
+  height: 160px;
   background: #fafafa;
   color: #ffffff;
   font-family: "Aboreto-Regular";
   margin-left: -190px;
-  float: right;
 }
 
 .title {
   background: #212121;
-  width: 600px;
-  height: 74px;
-  margin: 25px 25px;
+  height: 30px;
+  margin: 12px 24px;
   padding-top: 10px;
   padding-left: 10px;
-  font-family: "Aboreto-Regular";
+    font-family: "Aboreto-Regular";
 }
 .desc {
-  width: 600px;
-  height: 180px;
   background: #212121;
-  margin: 25px 25px;
-  font-size: 12px;
-  font-family: "Aboreto-Regular";
+  height: 120px;
+  margin: 12px 24px;
+    font-family: "Aboreto-Regular";
 }
 
 .btn {
-  width: 45px;
-  height: 45px;
+  width: auto;
+  height: 25px;
   background: #212121;
   color: #fafafa;
   font-family: "Aboreto-Regular";
-  margin: 315px -300px;
-  padding: 2px;
-  border-radius: 6px;
-}
+  margin-left: -1px;
+  margin-top: 30px;
+} */
