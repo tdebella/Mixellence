@@ -13,11 +13,13 @@ import AddItem from "./AddItem";
 import classes from "./dashboard.module.css";
 import UpdateItem from "./UpdateItem";
 import ReactDOM from "react-dom";
+// import Modal from "../dashboard/Modal";
 
 const Dashboard = () => {
   const [showModal, setShowModal] = useState(false);
   const dispatch = useDispatch();
-  const state = useSelector((state) => state.content.content); //get redux content state for sending into components
+  const state = useSelector((state) => state.content.content);
+  //get redux content state for sending into components
   const aboutUs = state.aboutUs;
   const bartenders = state.bartenders;
   const drinks = state.drinks;
