@@ -59,9 +59,6 @@
 .nav li {
   border-bottom: transparent solid 4px;
 }
-.nav li:active {
-  background-color: rgb(57, 6, 104);
-}
 .nav li:hover {
   border-bottom: #a45ee5 solid 4px;
 }
