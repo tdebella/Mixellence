@@ -16,7 +16,7 @@ const DrinkCard = ({ drink }) => {
       </div>
       <div className="back">
         <h3 className="heading">{drink.name}</h3>
-        <p className="bodyText">{drink.description}</p>
+        <p className="bodyText">{drink.summary}</p>
       </div>
     </div>
   );

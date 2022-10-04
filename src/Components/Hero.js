@@ -11,7 +11,7 @@ const Hero = () => {
         <div>
         {!loggedIn && <Link to="/login" className="dashboardLink"></Link>}        </div>
         <p>Excellent hand-crafted drinks for your event</p>
-        <StyledButton as="a" href="#">
+        <StyledButton as='a' href="#contact">
           Book Now
         </StyledButton>
       </div>

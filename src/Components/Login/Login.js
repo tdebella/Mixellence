@@ -34,18 +34,17 @@ const Login = () => {
           headers: {
             "Content-Type": "application/json",
           },
-        }
-      )
-        .then((res) => res.json())
-        .then((data) => {
-          //save token to local storage
-          //set redux state to loggedIn
-          //and redirect to dashboard page
-          //
-          localStorage.setItem("token", data.idToken);
-          dispatch(authActions.logIn());
-          navigate("/");
-        });
+        })
+      .then(res => res.json())
+      .then(data => {
+            //save token to local storage
+            //set redux state to loggedIn
+            //and redirect to dashboard page
+            //
+            localStorage.setItem('token', data.idToken)
+            dispatch(authActions.logIn())
+            navigate('/dashboard')
+        })
     } catch (error) {
       console.log(error);
     }

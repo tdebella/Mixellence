@@ -8,7 +8,7 @@ const BartenderLeft = (props) => {
       <img src={props.bartender.photo} alt="" />
       <h3 className={classes.subTitle}>{props.bartender.name}</h3>
       <p className={classes.text}>{props.bartender.summary}</p>
-      <StyledButton primary>{"Book Now"}</StyledButton>
+      <StyledButton as='a' href="#contact" primary>{"Book Now"}</StyledButton>
     </div>
   );
 };

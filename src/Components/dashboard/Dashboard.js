@@ -11,7 +11,7 @@ import { ModalBackdrop } from "../../styled-components/styled-components";
 import { useState } from "react";
 import AddItem from "./AddItem";
 import classes from "./dashboard.module.css";
-import UpdateItem from "./UpdateItem";
+import AddItemForm from "./AddItemForm";
 import ReactDOM from "react-dom";
 
 const Dashboard = () => {
@@ -23,6 +23,8 @@ const Dashboard = () => {
   const bartenders = state.bartenders;
   const drinks = state.drinks;
   const testimonials = state.testimonials;
+
+  const [addToSection, setAddToSection] = useState('')
 
   useEffect(() => {
     //change body element overflow to hidden to prevent scrolling when the modal is showing
@@ -40,6 +42,10 @@ const Dashboard = () => {
     dispatch(firebaseContent());
   }, [dispatch]);
 
+  const addItemInfo = (addType) => {
+    setAddToSection(addType)
+    setShowModal(true)
+  }
   return (
     <div className={classes.dashboardContainer}>
       {showModal &&
@@ -49,17 +55,17 @@ const Dashboard = () => {
         )}
       {showModal &&
         ReactDOM.createPortal(
-          <UpdateItem />,
+          <AddItemForm addToSection={addToSection} closeModal={()=>setShowModal(false)} />,
           document.getElementById("modalContent")
         )}
       <Hero />
       <AboutUs aboutUS={aboutUs} />
       <Drinks drinks={drinks} />
-      <AddItem onClick={() => setShowModal(true)} />
+      <AddItem onClick={()=>addItemInfo('drinks')}  />
       <Bartenders bartenders={bartenders} />
-      <AddItem onClick={() => setShowModal(true)} />
+      <AddItem onClick={()=>addItemInfo('bartenders')}  />
       <Testimonials testimonials={testimonials} />
-      <AddItem onClick={() => setShowModal(true)} />
+      <AddItem onClick={()=>addItemInfo('testimonials')} />
       <Footer />
     </div>
   );

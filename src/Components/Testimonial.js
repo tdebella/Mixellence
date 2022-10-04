@@ -17,7 +17,7 @@ const Testimonial = ({ info }) => {
       </div>
       <div className="stars">{starRating}</div>
       <div className={`heading ${classes.name}`}>{info.name}</div>
-      <div className={`bodyText ${classes.summary}`}>{info.description}</div>
+      <div className={`bodyText ${classes.summary}`}>{info.summary}</div>
     </div>
   );
 };
