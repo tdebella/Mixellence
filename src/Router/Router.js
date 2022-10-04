@@ -7,7 +7,7 @@ import MainPage from '../Components/MainPage'
 
 const Router = () => {
   return (
-    <div>
+    <div style={{display:"flex", flexDirection: 'column', alignItems: 'center', justifyContent:"center"}}>
       <Routes>
         <Route path='/' exact element={<MainPage />} />
         <Route path="/login" element={<Login />} />
