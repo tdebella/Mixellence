@@ -1,5 +1,4 @@
 .navbar {
-  border: 5px solid tomato;
   position: fixed;
   width: 1440px;
   height: 100px;
@@ -7,10 +6,10 @@
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
+  font-family: "Aberato-Regular";
   color: #000000;
   padding: 0 50px;
   top: 0px;
-  font-family: "Aberato-Regular";
   z-index: 10;
 }
 
@@ -32,7 +31,7 @@
   color: #212121;
 }
 .nav {
-  font-family: "Aboreto";
+  font-family: "Aboreto-Regular";
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
@@ -52,10 +51,10 @@
   display: flex;
   gap: -35px;
 }
-.nav a, .nav span {
+.nav a,
+.nav span {
   color: inherit;
   text-decoration: none;
-  /* height: 100%; */
   display: flex;
   align-items: center;
   padding: 10px;

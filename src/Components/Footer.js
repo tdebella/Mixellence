@@ -44,7 +44,7 @@ const ContactUs = () => {
             type="message"
             placeholder="Message"
             required
-          />{" "}
+          />
           <br /> <br />
           <br />
           <StyledButton>{"Send"}</StyledButton>

@@ -1,12 +1,10 @@
 .drinks {
-  border: 5px solid tomato;
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-top: 100px;
   background-color: #fafafa;
   background-image: url("../assets/Photos/bg-drinks.png");
   background-repeat: no-repeat;
