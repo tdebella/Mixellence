@@ -13,7 +13,6 @@ import AddItem from "./AddItem";
 import classes from "./dashboard.module.css";
 import AddItemForm from "./AddItemForm";
 import ReactDOM from "react-dom";
-// import Modal from "../dashboard/Modal";
 
 const Dashboard = () => {
   const [showModal, setShowModal] = useState(false);

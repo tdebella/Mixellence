@@ -5,11 +5,11 @@ import { StyledButton } from "../../styled-components/styled-components";
 import { useDispatch } from "react-redux";
 import firebaseConfig from "../../firebase-config";
 import { authActions } from "../../redux/slices/auth-slice";
+
 // social icons
 import Instagram from "../../assets/Photos/instagram.png";
 import Facebook from "../../assets/Photos/facebook.png";
 import Twitter from "../../assets/Photos/twitter.png";
-
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -20,19 +20,21 @@ const Login = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log('submit')
+    console.log("submit");
     try {
-      fetch(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${apiKey}`, {
-        method: 'POST',
-        body: JSON.stringify({
+      fetch(
+        `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${apiKey}`,
+        {
+          method: "POST",
+          body: JSON.stringify({
             email,
             password,
-            returnSecureToken: true
-        }),
-        headers: {
-            'Content-Type': 'application/json'
-        }
-      })
+            returnSecureToken: true,
+          }),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
       .then(res => res.json())
       .then(data => {
             //save token to local storage
@@ -59,15 +61,15 @@ const Login = () => {
   return (
     <>
       <div className="passwordReset">
-        <h1 className="title2">LOGIN</h1>
+        <h1 className="title">LOGIN</h1>
         <form>
-          <div className="wrap2">
-            <div className="inputWrapper2">
-              <label className="username">Email: </label>
+          <div className="wrap">
+            <div className="inputWrap">
+              <label>Email: </label>
               <input type="text" value={email} onChange={emailHandler} />
             </div>
 
-            <div className="inputWrapper2">
+            <div className="inputWrap">
               <label>Password: </label>
               <input
                 type="password"
@@ -78,6 +80,7 @@ const Login = () => {
             <StyledButton
               onClick={submitHandler}
               style={{ width: "60px", padding: "0 0px 0 0px", align: "left" }}
+              className="btn"
             >
               {"Login"}
             </StyledButton>
