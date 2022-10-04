@@ -1,0 +1,35 @@
+.aboutModal {
+  width: 1240px;
+  height: 350px;
+  background: #fafafa;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: baseline;
+
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  z-index: 16;
+}
+
+.desc {
+  width: 1140px;
+  height: 450px;
+  left: 50px;
+  top: 50px;
+  background: #212121;
+  margin: 25px 25px;
+  font-size: 12px;
+  font-family: "Aboreto-Regular";
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  background: #212121;
+  color: #fafafa;
+  font-family: "Aboreto-Regular";
+  margin: 315px -300px;
+  padding: 2px;
+  border-radius: 6px;
+}
