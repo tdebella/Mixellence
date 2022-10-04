@@ -1,9 +1,15 @@
+.bartenderLeft {
+  border: 5px solid goldenrod;
+  width: 100%;
+  padding-bottom: 70px;
+  /* margin-bottom: ; */
+}
+
 .bartenderLeft img {
   display: flex;
   width: 350px;
   height: 450px;
   float: left;
-  margin-left: -10px;
 }
 .bartenderLeft img,
 .subTitle {
@@ -15,14 +21,11 @@
   text-align: left;
   justify-content: start;
   font-size: 24px;
-  margin: 80px 0px 25px 0px;
-  padding: 40px 10px 50px;
-}
-.subTitle,
-.text {
-  padding-bottom: 40px;
+  margin: 40px 0px 25px 0px;
+  padding: 60px 5px 40px 0px;
 }
 
+.bartenderLeft,
 .text {
   text-align: left;
   font-family: "Montserrat";
@@ -31,5 +34,5 @@
   font-size: 18px;
   line-height: 28px;
   padding: 20px 5px 5px -75px;
-  margin: 10px 5px 15px -1px;
+  margin-bottom: 13px;
 }

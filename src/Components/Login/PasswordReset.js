@@ -44,10 +44,10 @@ const PasswordReset = () => {
   return (
     <>
       <div className="passwordReset">
-        <h1 className="title2">PASSWORD RESET</h1>
+        <h1 className="title">PASSWORD RESET</h1>
         <form>
-          <div className="wrap2">
-            <div className="inputWrapper2">
+          <div className="wrap">
+            <div className="inputWrap">
               <label className="email">Email: </label>
               <input
                 type="text"
@@ -56,7 +56,7 @@ const PasswordReset = () => {
                 required
               />
             </div>
-            <div className="inputWrapper2">
+            <div className="inputWrap">
               <label>Re-enter Email: </label>
               <input
                 type="text"
@@ -68,6 +68,7 @@ const PasswordReset = () => {
             <StyledButton
               onClick={submitHandler}
               style={{ width: "60px", padding: "0 0px 0 0px", align: "left" }}
+              className="btnSend"
             >
               {"Send"}
             </StyledButton>

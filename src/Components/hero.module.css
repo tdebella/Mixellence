@@ -1,8 +1,9 @@
 .hero {
+  border: 5px solid tomato;
+  width: 1440px;
+  height: 380px;
   background-image: url("../assets/Photos/heroImage.png");
   background-size: cover;
-  height: 380px;
-  width: 1440px;
 }
 
 .heroContent {

@@ -5,11 +5,8 @@ import BartenderRight from "./BartenderRight";
 const Bartenders = (props) => {
   let left = true;
   return (
-    <div className={bartendersCSS.container}>
-      <div
-        id="bartenders"
-        style={{ paddingLeft: "100px", paddingRight: "100px" }}
-      >
+    <div className={bartendersCSS.bartenders}>
+      <div id="bartenders">
         <h1 className={bartendersCSS.title}>GET TO KNOW YOUR BARTENDERS</h1>
         {props.bartenders.map((bartender) => {
           if (left) {

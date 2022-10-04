@@ -1,7 +1,7 @@
 import classes from "../dashboard/updateItem.module.css";
 import IMAGE from "../../assets/Photos/plus-circle-outlined.png";
 
-const UpdateItem = () => {
+const editModal = () => {
   return (
     <div className={classes.container}>
       <div className={classes.modalLeft}>
@@ -21,12 +21,12 @@ const UpdateItem = () => {
           </p>
         </div>
       </div>
-      <button className={classes.btn}>Save</button>
+      <div className="btnWrap">
+          <button className={classes.btn}>Save</button> <br />
+          <button className={classes.btn}>Delete</button>
+      </div>
     </div>
   );
 };
 
-export default UpdateItem;
-
-// - modal is usually opened based on a user interaction
-// - overlay is the entire length + width of the screen!
+export default editModal;

@@ -1,6 +1,10 @@
-.container {
+.bartenders {
+  border: 5px solid tomato;
   width: 1440px;
-  height: 100%;
+  height: 1564px;
+  left: 100px;
+  top: 1682px;
+
   justify-content: center;
   display: inline-block;
   background-image: url("../assets/Photos/bg-bartenders.png");
@@ -8,12 +12,14 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+  margin-top: 100px;
 }
 .title {
   font-family: "Aboreto-regular";
+  padding-top: 100px;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
-  line-height: 64px;
   text-align: center;
+  margin-left: 100px;
 }
