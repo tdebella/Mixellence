@@ -25,6 +25,8 @@ const Dashboard = () => {
   const drinks = state.drinks;
   const testimonials = state.testimonials;
 
+  const [addToSection, setAddToSection] = useState('')
+
   useEffect(() => {
     //change body element overflow to hidden to prevent scrolling when the modal is showing
     //and change it back to normal (visible) when the modal closes
@@ -41,6 +43,10 @@ const Dashboard = () => {
     dispatch(firebaseContent());
   }, [dispatch]);
 
+  const addItemInfo = (addType) => {
+    setAddToSection(addType)
+    setShowModal(true)
+  }
   return (
     <div className={classes.dashboardContainer}>
       {showModal &&
@@ -50,17 +56,17 @@ const Dashboard = () => {
         )}
       {showModal &&
         ReactDOM.createPortal(
-          <AddItemForm />,
+          <AddItemForm addToSection={addToSection} closeModal={()=>setShowModal(false)} />,
           document.getElementById("modalContent")
         )}
       <Hero />
       <AboutUs aboutUS={aboutUs} />
       <Drinks drinks={drinks} />
-      <AddItem onClick={() => setShowModal(true)} />
+      <AddItem onClick={()=>addItemInfo('drinks')}  />
       <Bartenders bartenders={bartenders} />
-      <AddItem onClick={() => setShowModal(true)} />
+      <AddItem onClick={()=>addItemInfo('bartenders')}  />
       <Testimonials testimonials={testimonials} />
-      <AddItem onClick={() => setShowModal(true)} />
+      <AddItem onClick={()=>addItemInfo('testimonials')} />
       <Footer />
     </div>
   );
