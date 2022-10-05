@@ -22,8 +22,8 @@ const editModal = () => {
         </div>
       </div>
       <div className="btnWrap">
-          <button className={classes.btn}>Save</button> <br />
-          <button className={classes.btn}>Delete</button>
+        <button className={classes.btn}>Save</button> <br />
+        <button className={classes.btn}>Delete</button>
       </div>
     </div>
   );
