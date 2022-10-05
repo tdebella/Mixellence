@@ -33,7 +33,7 @@ const EditPencilOverlay = ({ section, data }) => {
           )}
            {showModal &&
         ReactDOM.createPortal(
-          <EditModal data={data} addToSection={'testimonials'} closeModal={()=>setShowModal(false)} />,
+          <EditModal data={data} addToSection={section} closeModal={()=>setShowModal(false)} />,
           document.getElementById("modalContent")
         )}
       </>

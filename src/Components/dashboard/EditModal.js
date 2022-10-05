@@ -83,7 +83,7 @@ const AddItemForm = ({ closeModal, addToSection, data }) => {
       });
     }
   };
-  console.log("modal info ", data);
+
   return (
     <form className={classes.container}>
       {/* multiple inputs for this form but will read form info from react state */}
