@@ -1,9 +1,10 @@
 #### Project Title
 
-# MIXELLENCE 
+# MIXELLENCE
 
 Mixellence is the brand name and logo of the company. Mixellence provides quality/excellent services.
-We used React.js for this project for the pure purpose of practicing React. 
+We used React.js for this project for the pure purpose of practicing React.
+We workded with UX designers to develop this website for the client.
 
 [Checkout a hosted version here](https://github.io/mixellence/)
 
@@ -22,10 +23,12 @@ We used React.js for this project for the pure purpose of practicing React.
 ## Authors
 
 Mike Villa
+
 - [Website](https://)
 - [Linkedin](https://www.linkedin.com/in/)
 
 Tesfaye Robelle
+
 - [Website](https://github.com/tdebella)
 - [Linkedin](https://www.linkedin.com/in/tesfaye-robelle-4a2b7921a/)
 
@@ -33,7 +36,11 @@ Tesfaye Robelle
 
 ### Screenshot
 
+- ![screenshot] (./figmaDesign/design.JPG)
+- [figma design] https://www.figma.com/file/14NZAHE5GBa9xXvVRI05AA/Mixellence-(Devs)?node-id=2%3A5
+
 ### The challenge
+
 In 30 days with a group of two create a single-page react application, consisting 2 pages (client/home & admin/dashboard).
 
 Stretch Goals:
@@ -43,17 +50,20 @@ Stretch Goals:
 [x] Add data and user to mock database with firebase
 
 ### Links
+
 - Solution URL: [https://](https://github.com/)
 - Live Site URL: [https://](https:///)
 
 ## Our process
-We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. 
-We used redux/redux toolkits to build the store and firebase for the backend and authentication.  
+
+We discussed and decided early on that we were going to create the repository and all packages necessary to build the site.
+We used redux/redux toolkits to build the store and firebase for the backend and authentication.
 
 This is a basic web app built using
 
 ## Front-End
-- HTML5 
+
+- HTML5
 - CSS3
 - Module CSS
 - CSS Flexbox
@@ -63,4 +73,5 @@ This is a basic web app built using
 - [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
 
 ## Backend
+
 - Firebase (https://console.firebase.google.com/)
