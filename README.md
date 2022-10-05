@@ -35,9 +35,8 @@ Tesfaye Robelle
 ### The challenge
 In 30 days with a group of two create a single-page react application, consisting 2 pages (client/home & admin/dashboard).
 
-Our team chose the [Mixellence](https:/) website.
+Stretch Goals:
 
- Stretch Goals:
 [x] Create store with redux/toolkit
 [x] Create backend and authentication with Firebase
 [x] Add data and user to mock database with firebase
@@ -47,8 +46,10 @@ Our team chose the [Mixellence](https:/) website.
 - Live Site URL: [https://](https:///)
 
 ## Our process
+We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. 
+We used redux/redux toolkits to build the store and firebase for the backend and authentication.  
 
-  This is a basic web app built using
+This is a basic web app built using
 
 ## Front-End
 - HTML5 
@@ -62,5 +63,3 @@ Our team chose the [Mixellence](https:/) website.
 
 ## Backend
 - Firebase (https://console.firebase.google.com/)
-
-We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. We used redux/redux toolkits to build the store and firebase for the backend and authentication.
