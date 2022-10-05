@@ -8,7 +8,12 @@ import { firebaseContent } from "../../redux/actions/content-actions";
 import { barRef, drinksRef, testRef } from "../../firebase-db";
 import { addDoc, deleteDoc, doc } from "firebase/firestore";
 import { storage, db } from "../../firebase-db";
-import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
+import {
+  getDownloadURL,
+  ref,
+  uploadBytes,
+  deleteObject,
+} from "firebase/storage";
 
 const AddItemForm = ({ closeModal, addToSection, data }) => {
   //save form input values in state
@@ -32,6 +37,17 @@ const AddItemForm = ({ closeModal, addToSection, data }) => {
       dispatch(firebaseContent());
       closeModal();
     });
+
+    // Create a reference to the photo file to delete
+    const desertRef = ref(storage, data.photoRef);
+    // Delete the photo file
+    deleteObject(desertRef)
+      .then(() => {
+        // File deleted successfully
+      })
+      .catch((error) => {
+        // Uh-oh, an error occurred!
+      });
   };
 
   const submitHandler = async (e) => {
