@@ -3,8 +3,9 @@
 # MIXELLENCE
 
 Mixellence is the brand name and logo of the company. Mixellence provides quality/excellent services.
-We used React.js for this project for the pure purpose of practicing React.
-We workded with UX designers to develop this website for the client.
+We used React.js for this project for the pure purpose of practicing React. <br />
+
+We worked with UX designers to develop this website for the client.
 
 [Checkout a hosted version here](https://github.io/mixellence/)
 
@@ -36,12 +37,12 @@ Tesfaye Robelle
 
 ### Screenshot
 
-- ![screenshot] (./figmaDesign/design.JPG)
+- ![screenshot](./figmaDesign/design.JPG)
 - [figma design] https://www.figma.com/file/14NZAHE5GBa9xXvVRI05AA/Mixellence-(Devs)?node-id=2%3A5
 
-### The challenge
+## The challenge
 
-In 30 days with a group of two create a single-page react application, consisting 2 pages (client/home & admin/dashboard).
+In 30 days with a group of two create a single-page react application, consisting 4 pages (client/home & admin/dashboard).
 
 Stretch Goals:
 
@@ -49,19 +50,16 @@ Stretch Goals:
 [x] Create backend and authentication with Firebase
 [x] Add data and user to mock database with firebase
 
-### Links
+## Link
 
-- Solution URL: [https://](https://github.com/)
-- Live Site URL: [https://](https:///)
+- Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
 
 ## Our process
 
-We discussed and decided early on that we were going to create the repository and all packages necessary to build the site.
+We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. <br/>
 We used redux/redux toolkits to build the store and firebase for the backend and authentication.
 
-This is a basic web app built using
-
-## Front-End
+This is a web app built using
 
 - HTML5
 - CSS3
@@ -71,7 +69,5 @@ This is a basic web app built using
 - [React](https://reactjs.org/) - JS library
 - [React Router v6.3](https://reactrouter.com/)
 - [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
-
-## Backend
 
 - Firebase (https://console.firebase.google.com/)
