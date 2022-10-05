@@ -1,3 +1,5 @@
+Project Title
+
 # MIXELLENCE - With React
 
 We used react for this project for the pure purpose of practicing React.
@@ -46,8 +48,9 @@ Our team chose the [Mixellence](https:/) website.
 
 ## Our process
 
-### Built with
+  This is a basic web app built using
 
+## Front-End
 - HTML5 
 - CSS3
 - Module CSS
@@ -56,6 +59,8 @@ Our team chose the [Mixellence](https:/) website.
 - [React](https://reactjs.org/) - JS library
 - [React Router v6.3](https://reactrouter.com/)
 - [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
+
+## Backend
 - Firebase (https://console.firebase.google.com/)
 
 We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. We used redux/redux toolkits to build the store and firebase for the backend and authentication.
