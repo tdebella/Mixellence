@@ -2,7 +2,8 @@
 
 # MIXELLENCE 
 
-We used React.js for this project for the pure purpose of practicing React.Mixellence is the brand name and logo of the company.
+Mixellence is the brand name and logo of the company. 
+We used React.js for this project for the pure purpose of practicing React. 
 
 [Checkout a hosted version here](https://github.io/mixellence/)
 
