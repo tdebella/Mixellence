@@ -1,9 +1,6 @@
 import classes from "./editPencilOverlay.module.css";
-import Image from "../../assets/Photos/edit-pencil.png";
-import { useSelector, useDispatch } from "react-redux";
 import ReactDOM from "react-dom";
 import { ModalBackdrop } from "../../styled-components/styled-components";
-import { modalActions } from "../../redux/slices/modal-slice";
 import { useState, useEffect } from "react";
 import EditModal from './EditModal'
 
