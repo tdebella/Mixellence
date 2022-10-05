@@ -58,6 +58,6 @@ Stretch Goals:
 - [React](https://reactjs.org/) - JS library
 - [React Router v6.3](https://reactrouter.com/)
 - [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
-- Firebase (https://console.firebase.google.com/mixellence)
+- Firebase (https://console.firebase.google.com/)
 
-We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. We used redux/redux toolkits to build the store and firebase for backend and authentication.
+We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. We used redux/redux toolkits to build the store and firebase for the backend and authentication.
