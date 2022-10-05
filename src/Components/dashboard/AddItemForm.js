@@ -44,7 +44,7 @@ const AddItemForm = ({ closeModal, addToSection }) => {
       const fileUrl = await getDownloadURL(response.ref);
 
       //and send that image url into firestore database with name and summary
-      addDoc(dbRef, { name, summary, photo: fileUrl }).then((data) => {
+      addDoc(dbRef, { name, summary, photo: fileUrl , photoRef: photo.name}).then((data) => {
         dispatch(firebaseContent());
         closeModal();
         setLoading(false)
@@ -76,10 +76,13 @@ const AddItemForm = ({ closeModal, addToSection }) => {
           value={summary}
           onChange={(e) => setSummary(e.target.value)}
         />
-      </div>
+        <div className={classes.buttons}>
       <button onClick={submitHandler} className={classes.btn}>
         Save
       </button>
+      </div>
+      </div>
+     
     </form>
   );
 };
