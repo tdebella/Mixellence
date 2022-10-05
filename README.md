@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+#### Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MIXELLENCE
 
-## Available Scripts
+Mixellence is the brand name and logo of the company. Mixellence provides quality/excellent services.
+We used React.js for this project for the pure purpose of practicing React. <br />
 
-In the project directory, you can run:
+We worked with UX designers to develop this website for the client.
 
-### `npm start`
+[Checkout a hosted version here](https://github.io/mixellence/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Table of contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Authors](#authors)
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [The challenge](#the-challenge)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-we-learned)
+  - [Useful resources](#useful-resources)
 
-### `npm test`
+## Authors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Mike Villa
 
-### `npm run build`
+- [Website](https://)
+- [Linkedin](https://www.linkedin.com/in/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tesfaye Robelle
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Website](https://github.com/tdebella)
+- [Linkedin](https://www.linkedin.com/in/tesfaye-robelle-4a2b7921a/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Overview
 
-### `npm run eject`
+### Screenshot
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- ![screenshot](./figmaDesign/design.JPG)
+- [figma design] https://www.figma.com/file/14NZAHE5GBa9xXvVRI05AA/Mixellence-(Devs)?node-id=2%3A5
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## The challenge
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In 30 days with a group of two create a single-page react application, consisting 4 pages (client/home & admin/dashboard).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Stretch Goals:
 
-## Learn More
+[x] Create store with redux/toolkit
+[x] Create backend and authentication with Firebase
+[x] Add data and user to mock database with firebase
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Link
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
 
-### Code Splitting
+## Our process
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. <br/>
+We used redux/redux toolkits to build the store and firebase for the backend and authentication.
 
-### Analyzing the Bundle Size
+This is a web app built using
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- HTML5
+- CSS3
+- Module CSS
+- CSS Flexbox
+- [Styled Components](https://styled-components.com/)
+- [React](https://reactjs.org/) - JS library
+- [React Router v6.3](https://reactrouter.com/)
+- [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Firebase (https://console.firebase.google.com/)
