@@ -8,9 +8,9 @@ We used react for this project for the pure purpose of practicing React.
 
 - [Authors](#authors)
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+  - [The challenge](#the-challenge)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-we-learned)
@@ -19,16 +19,21 @@ We used react for this project for the pure purpose of practicing React.
 ## Authors
 
 Mike Villa
-
 - [Website](https://)
 - [Linkedin](https://www.linkedin.com/in/)
 
 Tesfaye Robelle
-
 - [Website](https://github.com/tdebella)
 - [Linkedin](https://www.linkedin.com/in/tesfaye-robelle-4a2b7921a/)
 
 ## Overview
+
+### Screenshot
+
+### Links
+
+- Solution URL: [https://](https://github.com/)
+- Live Site URL: [https://](https:///)
 
 ### The challenge
 
@@ -40,13 +45,6 @@ Stretch Goals:
 [x] Create store with redux/toolkit
 [x] Create backend and authentication with Firebase
 [x] Add data and user to mock database with firebase
-
-### Screenshot
-
-### Links
-
-- Solution URL: [https://](https://github.com/)
-- Live Site URL: [https://](https:///)
 
 ## Our process
 
