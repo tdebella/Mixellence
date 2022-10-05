@@ -1,8 +1,10 @@
 .bartenderLeft {
   /* border: 5px solid goldenrod; */
   width: 100%;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
   /* margin-bottom: ; */
+  position: relative;
+  overflow: hidden;
 }
 
 .bartenderLeft img {

@@ -4,8 +4,8 @@
   background-color: #fafafa;
   background-image: url("../assets/Photos/bg-testimonial.png");
   background-repeat: no-repeat;
-  background-size: 90% 100%;
-  background-position: center;
+  background-size: 80%;
+  background-position: 50% 80%;
   padding: 20px 30px;
 }
 .testimonials h2 {
