@@ -1,8 +1,8 @@
-Project Title
+#### Project Title
 
-# MIXELLENCE - With React
+# MIXELLENCE 
 
-We used react for this project for the pure purpose of practicing React.
+We used React.js for this project for the pure purpose of practicing React.Mixellence is the brand name and logo of the company.
 
 [Checkout a hosted version here](https://github.io/mixellence/)
 
