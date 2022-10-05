@@ -51,6 +51,9 @@
   font-family: "Aboreto-Regular";
   margin-left: -190px;
   float: right;
+  display:flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .title {
@@ -75,17 +78,22 @@
 }
 
 .btn {
-  width: 45px;
+  width:60px;
   height: 45px;
   background: #212121;
   color: #fafafa;
   font-family: "Aboreto-Regular";
-  margin: 315px -300px;
+  
   padding: 2px;
   border-radius: 6px;
   cursor: pointer;
+  margin-right: 20px;
 }
-
+.buttons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 .btnWrap {
   display: flex;
   flex-direction: row;

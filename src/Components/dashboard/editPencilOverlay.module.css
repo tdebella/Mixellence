@@ -1,0 +1,17 @@
+.overlay{
+    opacity: 0;
+    width: 345px;
+    height: 501px;
+    cursor: pointer;
+    position: absolute;
+    background: url('../../assets/Photos/edit-pencil.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #212121;
+    transition: all .5s ease;
+}
+
+.overlay:hover{
+    opacity: .5;
+    transition: all .5s ease;
+}
