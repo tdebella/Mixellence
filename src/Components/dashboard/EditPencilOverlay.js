@@ -19,16 +19,24 @@ const EditPencilOverlay = ({ section, data }) => {
     }
   }, [showModal]);
   
+  const clickHandler = (e) => {
+    e.stopPropagation()
+    setShowModal(true)
+  }
+
   if (!showModal) {
     return (
-      <div className={classes.overlay} onClick={() => setShowModal(true)}></div>
+      <div className={classes.overlay} onClick={clickHandler}></div>
     );
   } else {
     return (
       <>
         {showModal &&
           ReactDOM.createPortal(
-            <ModalBackdrop onClick={() => setShowModal(false)} />,
+            <ModalBackdrop onClick={(e) => {
+              e.stopPropagation()
+               setShowModal(false)}}
+                />,
             document.getElementById("modalBackdrop")
           )}
            {showModal &&

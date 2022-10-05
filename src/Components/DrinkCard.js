@@ -9,10 +9,12 @@ const DrinkCard = ({ drink }) => {
   const loggedIn = useSelector(state => state.auth.loggedIn)
 
   let image = drink.photo.toString();
+  let cardStyle = loggedIn ? {overflow: "hidden"} : {}
   return (
     <div
       className={`card ${flip ? "flip" : ""}`}
       onClick={() => setFlip((prev) => !prev)}
+      style={cardStyle}
     >
             {loggedIn && <EditPencilOverlay section='drinks' data={drink} />}
 
