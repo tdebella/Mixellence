@@ -2,7 +2,7 @@
 
 # MIXELLENCE 
 
-Mixellence is the brand name and logo of the company. 
+Mixellence is the brand name and logo of the company. Mixellence provides quality/excellent services.
 We used React.js for this project for the pure purpose of practicing React. 
 
 [Checkout a hosted version here](https://github.io/mixellence/)
