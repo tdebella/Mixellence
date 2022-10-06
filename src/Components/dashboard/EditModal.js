@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { firebaseContent } from "../../redux/actions/content-actions";
 import { barRef, drinksRef, testRef } from "../../firebase-db";
-import { addDoc, deleteDoc, doc } from "firebase/firestore";
+import { deleteDoc, doc, updateDoc } from "firebase/firestore";
 import { storage, db } from "../../firebase-db";
 import {
   getDownloadURL,
@@ -15,25 +15,23 @@ import {
   deleteObject,
 } from "firebase/storage";
 
-const AddItemForm = ({ closeModal, addToSection, data }) => {
+const EditModal = ({ closeModal, addToSection, data }) => {
   //save form input values in state
-  const [name, setName] = useState("");
-  const [summary, setSummary] = useState("");
-  const [photo, setPhoto] = useState(data.photo);
+  const [name, setName] = useState(data.name);
+  const [summary, setSummary] = useState(data.summary);
+  const [photo, setPhoto] = useState(data.photoRef);
   const [loading, setLoading] = useState(false);
   const dispatch = useDispatch();
 
   const deleteHandler = async (e) => {
     e.preventDefault();
-    console.log("section collection", addToSection);
-    console.log("delete");
+   
     //get collection ref to work with
     let deleteFrom = addToSection;
     const docRef = doc(db, deleteFrom, data.id);
     deleteDoc(docRef).then((res) => {
       //delete the photo from storage
       //
-      console.log(res);
       dispatch(firebaseContent());
       closeModal();
     });
@@ -52,7 +50,38 @@ const AddItemForm = ({ closeModal, addToSection, data }) => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    console.log(name, summary, photo);
+
+    // if name || summary || photoRef !== to data.name, data.summary, data.photoRef
+    // then update that field
+    let updatedItems = {}
+    if(name !== data.name){
+      updatedItems.name = name
+    }
+    if(summary !== data.summary){
+      updatedItems.summary = summary
+    }
+    if(photo !== data.photoRef){
+      updatedItems.photoRef = photo.name
+    }
+    console.log ('updating ', updatedItems)
+    if(Object.keys(updatedItems).length === 0 ){
+      console.log('emtpy')
+    }else{
+      console.log('not empty')
+      if(updatedItems.hasOwnProperty('photoRef')){
+      const imageRef = ref(storage, `${photo.name}`);
+      const response = await uploadBytes(imageRef, photo);
+      const fileUrl = await getDownloadURL(response.ref);
+      updatedItems.photo = fileUrl
+    }
+      const docRef = doc(db, addToSection, data.id);
+      updateDoc(docRef, updatedItems)
+      .then(() => {
+        dispatch(firebaseContent());
+        closeModal();
+        setLoading(false);
+      })
+    }
     // addDoc adds to the collection this object
     let dbRef;
     switch (addToSection) {
@@ -67,21 +96,21 @@ const AddItemForm = ({ closeModal, addToSection, data }) => {
         break;
       default:
     }
-    if (photo !== "") {
-      //upload the image
-      //then get the url after upload
-      setLoading(true);
-      const imageRef = ref(storage, `${photo.name}`);
-      const response = await uploadBytes(imageRef, photo);
-      const fileUrl = await getDownloadURL(response.ref);
+    // if (photo !== "") {
+    //   //upload the image
+    //   //then get the url after upload
+    //   setLoading(true);
+      // const imageRef = ref(storage, `${photo.name}`);
+      // const response = await uploadBytes(imageRef, photo);
+      // const fileUrl = await getDownloadURL(response.ref);
 
-      //and send that image url into firestore database with name and summary
-      addDoc(dbRef, { name, summary, photo: fileUrl }).then((data) => {
-        dispatch(firebaseContent());
-        closeModal();
-        setLoading(false);
-      });
-    }
+    //   //and send that image url into firestore database with name and summary
+    //   addDoc(dbRef, { name, summary, photo: fileUrl, photoRef: photo.name }).then((data) => {
+    //     dispatch(firebaseContent());
+    //     closeModal();
+    //     setLoading(false);
+    //   });
+    // }
   };
 
   return (
@@ -97,14 +126,14 @@ const AddItemForm = ({ closeModal, addToSection, data }) => {
           className={classes.title}
           placeholder="Name"
           onChange={(e) => setName(e.target.value)}
-          value={data.name}
+          value={name}
         />
         <textarea
           className={classes.desc}
           rows="9"
           cols="40"
           placeholder="Type description here"
-          value={data.summary}
+          value={summary}
           onChange={(e) => setSummary(e.target.value)}
         />
         <div className={classes.buttons}>
@@ -121,7 +150,7 @@ const AddItemForm = ({ closeModal, addToSection, data }) => {
   );
 };
 
-export default AddItemForm;
+export default EditModal;
 
 // - modal is usually opened based on a user interaction
 // - overlay is the entire length + width of the screen!
