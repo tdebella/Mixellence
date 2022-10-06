@@ -23,7 +23,8 @@ const DrinkCard = ({ drink }) => {
       </div>
       <div className="back">
         <h3 className="heading">{drink.name}</h3>
-        <p className="bodyText">{drink.summary}</p>
+        <pre className="bodyText">{drink.summary}</pre>
+        {console.log('drink summary ', drink.summary)}
       </div>
     </div>
   );
