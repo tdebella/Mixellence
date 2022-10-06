@@ -117,6 +117,7 @@ const AddItemForm = ({ closeModal, addToSection, data }) => {
         </div>
       </div>
     </form>
+
   );
 };
 
