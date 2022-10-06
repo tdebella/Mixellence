@@ -12,7 +12,7 @@ const AboutUs = (props) => {
       <div className={AboutUsCSS.container}>
       <p className={AboutUsCSS.text}>
       {loggedIn && <EditPencilOverlay section='about' data={props.aboutUS} />}
-      {props.aboutUS}
+      {props.aboutUS.summary}
       </p>
       </div>
     </div>
