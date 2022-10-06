@@ -13,11 +13,11 @@ export const firebaseContent = () => {
     let aboutContent = [];
     await getDocs(aboutRef).then((res) => {
       res.docs.forEach((docs) => {
-        aboutContent.push({ ...docs.data() });
+        aboutContent.push({ ...docs.data(), id: docs.id });
         dispatch(
           contentActions.updateContent({
             property: "aboutUs",
-            data: aboutContent[0].summary,
+            data: aboutContent[0],
           })
         );
       });
