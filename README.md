@@ -1,8 +1,9 @@
-#### Project Title
+### Project Title
 
 # MIXELLENCE
 
 Mixellence is the brand name and logo of the company. Mixellence provides quality/excellent services. <br/>
+
 We used React.js for this project for the pure purpose of practicing React. <br />
 
 We worked with UX designers to develop this website for the client.
@@ -19,13 +20,13 @@ We worked with UX designers to develop this website for the client.
   - [Links](#links)
   - [The challenge](#the-challenge)
   
- [My process](#my-process)
+ [The process](#the-process)
 
   - [Built with](#built-with)
-  - [What I learned](#what-we-learned)
+  - [What we learned](#what-we-learned)
   - [Useful resources](#useful-resources)
 
-## Authors
+## Authors 
 
 Mike Villa
 
@@ -53,7 +54,7 @@ Tesfaye Robelle
 
    - [x] Create store with redux/toolkit
    - [x] Create backend and authentication with Firebase
-   - [x] Add data and user to mock database with firebase
+   - [x] Add data and user to mock database with Firebase
 
 ## Link
 
@@ -63,7 +64,12 @@ Tesfaye Robelle
 
 - We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. <br/>
 
-- We used redux/redux toolkits to build the store and firebase for the backend and authentication.
+- We used redux/redux toolkits to build the store and Firebase for the backend and authentication.
+
+- Lessons learned:
+   - We met the designer & looked at the design together. We  had enough time to ask questions and discuss the functions of certain <br/>   
+     features. Working with a good designer can be a great experience. We took the opportunity to learn some new tools (e.g., figma) <br/>
+     and client’s requirements.
 
 - This is a web app built using
 
