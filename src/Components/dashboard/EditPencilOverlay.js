@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import { ModalBackdrop } from "../../styled-components/styled-components";
 import { useState, useEffect } from "react";
 import EditModal from './EditModal'
+import AboutModal from './AboutModal'
+
 
 const EditPencilOverlay = ({ section, data }) => {
   const [showModal, setShowModal] = useState(false);
@@ -39,9 +41,15 @@ const EditPencilOverlay = ({ section, data }) => {
                 />,
             document.getElementById("modalBackdrop")
           )}
-           {showModal &&
+           {showModal && section !== 'about' &&
+
         ReactDOM.createPortal(
           <EditModal data={data} addToSection={section} closeModal={()=>setShowModal(false)} />,
+          document.getElementById("modalContent")
+        )}
+         {showModal && section === 'about' &&
+        ReactDOM.createPortal(
+          <AboutModal data={data} addToSection={section} closeModal={()=>setShowModal(false)} />,
           document.getElementById("modalContent")
         )}
       </>
