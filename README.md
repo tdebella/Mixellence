@@ -11,12 +11,16 @@ We worked with UX designers to develop this website for the client.
 
 ### Table of contents
 
-- [Authors](#authors)
-- [Overview](#overview)
+ [Authors](#authors)
+
+ [Overview](#overview)
+
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [The challenge](#the-challenge)
-- [My process](#my-process)
+  -
+ [My process](#my-process)
+
   - [Built with](#built-with)
   - [What I learned](#what-we-learned)
   - [Useful resources](#useful-resources)
