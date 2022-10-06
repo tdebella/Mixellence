@@ -45,7 +45,7 @@ Tesfaye Robelle
 
 - [figma design] https://www.figma.com/file/14NZAHE5GBa9xXvVRI05AA/Mixellence-(Devs)?node-id=2%3A5
 
-## The challenge
+## The Task / Challenge
 
 In 30 days with a group of two create a single-page react application, consisting 4 pages (client/home & admin/dashboard).
 
@@ -59,20 +59,20 @@ Stretch Goals:
 
 Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
 
-## Our process
+## The process
 
-We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. <br/>
-We used redux/redux toolkits to build the store and firebase for the backend and authentication.
+- We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. <br/>
 
-This is a web app built using
+- We used redux/redux toolkits to build the store and firebase for the backend and authentication.
 
-- HTML5
-- CSS3
-- Module CSS
-- CSS Flexbox
-- [Styled Components](https://styled-components.com/)
-- [React](https://reactjs.org/) - JS library
-- [React Router v6.3](https://reactrouter.com/)
-- [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
+- This is a web app built using
 
-- Firebase (https://console.firebase.google.com/)
+   - HTML5
+   - CSS3
+   - Module CSS
+   - CSS Flexbox
+   - [Styled Components](https://styled-components.com/)
+   - [React](https://reactjs.org/) - JS library
+   - [React Router v6.3](https://reactrouter.com/)
+   - [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
+   - Firebase (https://console.firebase.google.com/)
