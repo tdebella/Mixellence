@@ -2,7 +2,7 @@
 
 # MIXELLENCE
 
-Mixellence is the brand name and logo of the company. Mixellence provides quality/excellent services.
+Mixellence is the brand name and logo of the company. Mixellence provides quality/excellent services. <br/>
 We used React.js for this project for the pure purpose of practicing React. <br />
 
 We worked with UX designers to develop this website for the client.
@@ -11,12 +11,16 @@ We worked with UX designers to develop this website for the client.
 
 ### Table of contents
 
-- [Authors](#authors)
-- [Overview](#overview)
+ [Authors](#authors)
+
+ [Overview](#overview)
+
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [The challenge](#the-challenge)
-- [My process](#my-process)
+  
+ [My process](#my-process)
+
   - [Built with](#built-with)
   - [What I learned](#what-we-learned)
   - [Useful resources](#useful-resources)
@@ -38,6 +42,7 @@ Tesfaye Robelle
 ### Screenshot
 
 - ![screenshot](./figmaDesign/design.JPG)
+
 - [figma design] https://www.figma.com/file/14NZAHE5GBa9xXvVRI05AA/Mixellence-(Devs)?node-id=2%3A5
 
 ## The challenge
@@ -52,7 +57,7 @@ Stretch Goals:
 
 ## Link
 
-- Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
+Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
 
 ## Our process
 
