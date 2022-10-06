@@ -1,9 +1,10 @@
 .overlay{
     opacity: 0;
     width: 100%;
-    height: 501px;
+    height: 100%;
     cursor: pointer;
     position: absolute;
+    top: 0;
     background: url('../../assets/Photos/edit-pencil.png');
     background-repeat: no-repeat;
     background-position: center;
