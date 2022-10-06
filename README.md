@@ -41,23 +41,23 @@ Tesfaye Robelle
 
 ### Screenshot
 
-- ![screenshot](./figmaDesign/design.JPG)
+  ![screenshot](./figmaDesign/design.JPG)
 
 - [figma design] https://www.figma.com/file/14NZAHE5GBa9xXvVRI05AA/Mixellence-(Devs)?node-id=2%3A5
 
 ## The Task / Challenge
 
-In 30 days with a group of two create a single-page react application, consisting 4 pages (client/home & admin/dashboard).
+- In 30 days with a group of two create a single-page react application, consisting 4 pages (client/home & admin/dashboard).
 
-Stretch Goals:
+- Stretch Goals:
 
-[x] Create store with redux/toolkit
-[x] Create backend and authentication with Firebase
-[x] Add data and user to mock database with firebase
+   - [x] Create store with redux/toolkit
+   - [x] Create backend and authentication with Firebase
+   - [x] Add data and user to mock database with firebase
 
 ## Link
 
-Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
+   - Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
 
 ## The process
 
