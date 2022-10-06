@@ -18,7 +18,7 @@ We worked with UX designers to develop this website for the client.
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [The challenge](#the-challenge)
-  -
+  
  [My process](#my-process)
 
   - [Built with](#built-with)
