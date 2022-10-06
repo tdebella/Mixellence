@@ -1,8 +1,9 @@
-#### Project Title
+### Project Title
 
 # MIXELLENCE
 
 Mixellence is the brand name and logo of the company. Mixellence provides quality/excellent services. <br/>
+
 We used React.js for this project for the pure purpose of practicing React. <br />
 
 We worked with UX designers to develop this website for the client.
@@ -19,13 +20,13 @@ We worked with UX designers to develop this website for the client.
   - [Links](#links)
   - [The challenge](#the-challenge)
   
- [My process](#my-process)
+ [The process](#the-process)
 
   - [Built with](#built-with)
-  - [What I learned](#what-we-learned)
+  - [What we learned](#what-we-learned)
   - [Useful resources](#useful-resources)
 
-## Authors
+## Authors 
 
 Mike Villa
 
@@ -41,38 +42,44 @@ Tesfaye Robelle
 
 ### Screenshot
 
-- ![screenshot](./figmaDesign/design.JPG)
+  ![screenshot](./figmaDesign/design.JPG)
 
 - [figma design] https://www.figma.com/file/14NZAHE5GBa9xXvVRI05AA/Mixellence-(Devs)?node-id=2%3A5
 
-## The challenge
+## The Task / Challenge
 
-In 30 days with a group of two create a single-page react application, consisting 4 pages (client/home & admin/dashboard).
+- In 30 days with a group of two create a single-page react application, consisting 4 pages (client/home & admin/dashboard).
 
-Stretch Goals:
+- Stretch Goals:
 
-[x] Create store with redux/toolkit
-[x] Create backend and authentication with Firebase
-[x] Add data and user to mock database with firebase
+   - [x] Create store with redux/toolkit
+   - [x] Create backend and authentication with Firebase
+   - [x] Add data and user to mock database with Firebase
 
 ## Link
 
-Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
+   - Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
 
-## Our process
+## The process
 
-We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. <br/>
-We used redux/redux toolkits to build the store and firebase for the backend and authentication.
+- We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. <br/>
 
-This is a web app built using
+- We used redux/redux toolkits to build the store and Firebase for the backend and authentication.
 
-- HTML5
-- CSS3
-- Module CSS
-- CSS Flexbox
-- [Styled Components](https://styled-components.com/)
-- [React](https://reactjs.org/) - JS library
-- [React Router v6.3](https://reactrouter.com/)
-- [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
+- Lessons learned:
+   - We met the designer & looked at the design together. We  had enough time to ask questions and discuss the functions of certain <br/>   
+     features. Working with a good designer can be a great experience. We took the opportunity to learn some new tools (e.g., figma) <br/>
+     and client’s requirements.
 
-- Firebase (https://console.firebase.google.com/)
+- This is a web app built using
+
+   - HTML5
+   - CSS3
+   - Module CSS
+   - CSS Flexbox
+   - [Styled Components](https://styled-components.com/)
+   - [React](https://reactjs.org/) - JS library
+   - [React Router v6.3](https://reactrouter.com/)
+   - [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
+   - Firebase (https://console.firebase.google.com/)
+   - 
