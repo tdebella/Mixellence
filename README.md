@@ -14,29 +14,37 @@ We worked with UX designers to develop this website for the client.
 
  [Authors](#authors)
 
+ [Designer] (#designer)
+
  [Overview](#overview)
 
   - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [The challenge](#the-challenge)
+  - [Link](#link)
+  - [The Task / Challenge](#the-challenge)
   
  [The process](#the-process)
 
   - [Built with](#built-with)
   - [What we learned](#what-we-learned)
-  - [Useful resources](#useful-resources)
 
 ## Authors 
 
 Mike Villa
 
 - [Website](https://)
-- [Linkedin](https://www.linkedin.com/in/)
+- [Linkedin](https://)
 
 Tesfaye Robelle
 
 - [Website](https://github.com/tdebella)
 - [Linkedin](https://www.linkedin.com/in/tesfaye-robelle-4a2b7921a/)
+
+## Designer
+
+Jacob Difede
+
+- [Website](https://)
+- [Linkedin](https://https://www.linkedin.com/in/jacob-difede-434955221/)
 
 ## Overview
 
@@ -64,12 +72,7 @@ Tesfaye Robelle
 
 - We discussed and decided early on that we were going to create the repository and all packages necessary to build the site. <br/>
 
-- We used redux/redux toolkits to build the store and Firebase for the backend and authentication.
-
-- Lessons learned:
-   - We met the designer & looked at the design together. We  had enough time to ask questions and discuss the functions of certain <br/>   
-     features. Working with a good designer can be a great experience. We took the opportunity to learn some new tools (e.g., figma) <br/>
-     and client’s requirements.
+- We used redux/redux toolkits to build the store and Firebase for the backend and authentication.   
 
 - This is a web app built using
 
@@ -82,4 +85,8 @@ Tesfaye Robelle
    - [React Router v6.3](https://reactrouter.com/)
    - [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
    - Firebase (https://console.firebase.google.com/)
-   - 
+
+- Lessons learned:
+   - We met the designer & looked at the design together. We  had enough time to ask questions and discuss the functions of certain features. 
+   - Working with a good designer can be a great experience. We took the opportunity to learn some new tools (e.g., figma) and client’s requirements.
+   - We learnt how to collaborate & use the git/github.com (code push/pull, resolved merge conflict, etc...) while building the project in a team. 
