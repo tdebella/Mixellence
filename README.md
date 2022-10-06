@@ -42,6 +42,7 @@ Tesfaye Robelle
 ### Screenshot
 
 - ![screenshot](./figmaDesign/design.JPG)
+
 - [figma design] https://www.figma.com/file/14NZAHE5GBa9xXvVRI05AA/Mixellence-(Devs)?node-id=2%3A5
 
 ## The challenge
@@ -56,7 +57,7 @@ Stretch Goals:
 
 ## Link
 
-- Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
+Live Site URL: [Mixellence](https://mixellence-67ae5.web.app/)
 
 ## Our process
 
