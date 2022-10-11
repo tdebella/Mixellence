@@ -14,7 +14,7 @@ We worked with UX designers to develop this website for the client.
 
 [Authors](#authors)
 
-[Designer] (#designer)
+[Designer](#designer)
 
 [Overview](#overview)
 
