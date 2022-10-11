@@ -8,7 +8,7 @@ We used React.js for this project for the pure purpose of practicing React. <br 
 
 We worked with UX designers to develop this website for the client.
 
-[Checkout a hosted version here](https://github.io/mixellence/)
+[Checkout a hosted version here](https://mixellence-67ae5.web.app/)
 
 ### Table of contents
 
@@ -29,12 +29,12 @@ We worked with UX designers to develop this website for the client.
 
 ## Authors
 
-Mike Villa
+Mike Villa - Software Engineer
 
-- [Website](https://)
-- [Linkedin](https://)
+- [Website](https://mikegv.github.io/portfolio/)
+- [Linkedin](https://www.linkedin.com/in/michael-villa-338a0567/)
 
-Tesfaye Robelle
+Tesfaye Robelle - Software Engineer
 
 - [Website](https://github.com/tdebella)
 - [Linkedin](https://www.linkedin.com/in/tesfaye-robelle-4a2b7921a/)
@@ -43,7 +43,6 @@ Tesfaye Robelle
 
 Jacob Difede
 
-- [Website](https://)
 - [Linkedin](https://https://www.linkedin.com/in/jacob-difede-434955221/)
 
 ## Overview
